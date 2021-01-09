@@ -1,10 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { BrowserRouter, Route } from "react-router-dom";
+import AllPosts from "./components/allPosts.js";
+import OnePost from "./components/onePost.js";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
+    <BrowserRouter>
+     <div>
+      <Route component={AllPosts} path="/" exact />
+      <Route component={OnePost} path="/:slug" />
+  
+      </div>
+    </BrowserRouter>
+  );
+}
+
+export default App;
+
+
+/*
+
+
+    <Route component={HomePage} path="/home" />
+      <Route component={MenuPage} path="/menu" />
+      <Route component={AboutPage} path="/about" />
+      <Route component={NewsPage} path="/news" />
+
+<header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
@@ -17,9 +39,4 @@ function App() {
         >
           Learn React
         </a>
-      </header>
-    </div>
-  );
-}
-
-export default App;
+      </header>*/
