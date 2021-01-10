@@ -1,30 +1,41 @@
 import React from "react";
+import "./App.css";
 import { BrowserRouter, Route } from "react-router-dom";
-import AllPosts from "./components/allPosts.js";
-import OnePost from "./components/onePost.js";
+import Header from "./components/header/header.js";
+import Footer from "./components/footer/footer.js";
+import HomePage from "./components/home/home-page.js";
+import MenuPage from "./components/menu/menu-page.js";
+import AboutPage from "./components/about/about-page.js";
+import NewsPage from "./components/news/news-page.js";
+import OnePost from "./components/news/one-post.js"
 
 function App() {
   return (
-    <BrowserRouter>
-     <div>
-      <Route component={AllPosts} path="/" exact />
-      <Route component={OnePost} path="/:slug" />
-  
-      </div>
-    </BrowserRouter>
+    <div>
+      <Header />
+      <h5>hej hej hej</h5>
+      <BrowserRouter>
+        <div>
+          
+          <Route component={HomePage} path="/" exact />
+          <Route component={MenuPage} path="/menu" />
+          <Route component={AboutPage} path="/about" />
+          <Route component={NewsPage} path="/news" />
+          <Route component={OnePost} path="/:slug" />
+        </div>
+      </BrowserRouter>
+      <Footer />
+    </div>
   );
 }
 
 export default App;
 
-
 /*
 
 
-    <Route component={HomePage} path="/home" />
-      <Route component={MenuPage} path="/menu" />
-      <Route component={AboutPage} path="/about" />
-      <Route component={NewsPage} path="/news" />
+     <Route component={AllPosts} path="/" exact />
+          <Route component={OnePost} path="/:slug" />
 
 <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
