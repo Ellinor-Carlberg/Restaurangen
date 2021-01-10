@@ -1,0 +1,11 @@
+.header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    
+    border: 1px solid yellow;
+
+}
+
+.header-wrapper nav{
+    display: flex;
+}

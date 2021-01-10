@@ -1,0 +1,13 @@
+.hamburger-wrapper {
+    border-left: 2px solid black;
+    border: 1px solid pink;
+    display: flex;
+    flex-direction: column;
+    width: 5vw;
+    
+}
+
+.hamburger-wrapper h3 {
+    margin: 0;
+    border: 1px solid blue;
+}
