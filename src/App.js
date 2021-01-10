@@ -13,7 +13,6 @@ function App() {
   return (
     <div>
       <Header />
-      <h5>hej hej hej</h5>
       <BrowserRouter>
         <div>
           
