@@ -1,21 +1,22 @@
 import React from "react";
 import "./App.css";
 import { BrowserRouter, Route } from "react-router-dom";
-import Header from "./components/header/header.js";
 import Footer from "./components/footer/footer.js";
 import HomePage from "./components/home/home-page.js";
 import MenuPage from "./components/menu/menu-page.js";
 import AboutPage from "./components/about/about-page.js";
 import NewsPage from "./components/news/news-page.js";
 import OnePost from "./components/news/one-post.js"
+import HamburgerMenu from "./components/hamburger-menu/hamburger-menu.js";
 
 function App() {
   return (
-    <div>
-      <Header />
+    <div class="app-wrapper">
+      
+      <HamburgerMenu  />
+      
       <BrowserRouter>
         <div>
-          
           <Route component={HomePage} path="/" exact />
           <Route component={MenuPage} path="/menu" />
           <Route component={AboutPage} path="/about" />
@@ -23,6 +24,7 @@ function App() {
           <Route component={OnePost} path="/:slug" />
         </div>
       </BrowserRouter>
+      
       <Footer />
     </div>
   );

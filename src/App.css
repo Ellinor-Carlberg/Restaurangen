@@ -3,7 +3,17 @@
 body {
   margin: 0;
   font-family: futura-pt, sans-serif;
+  
 }
+ 
+.app-wrapper {
+   z-index: 1;
+    position: relative; 
+    border: 1px solid brown;
+}   
+
+
+
 
 h1 {
 font-size: 78px;

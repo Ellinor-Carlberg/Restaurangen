@@ -1,0 +1,18 @@
+.homepage-wrapper {
+    background-color: lightblue;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+   
+}
+
+.homepage-wrapper h1{
+    margin-left:calc(3rem + 3vw);
+    margin-right:calc(3rem + 3vw);
+    border: 1px solid orange;
+    height: 60rem;
+    z-index: 1;
+}
+
