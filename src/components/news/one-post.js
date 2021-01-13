@@ -45,7 +45,7 @@ export default function OnePost() {
     </div>
     <h4>{postData.name}</h4>
     <img 
-    src={urlFor(postData.mainImage).width(200).url()} alt="Main image of post"
+    src={urlFor(postData.mainImage).width(200).url()} alt="monkey"
     />
     <div>
         <BlockContent

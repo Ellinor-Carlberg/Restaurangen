@@ -30,7 +30,7 @@ function NewsPage() {
                     allPostsData.map((post, index) => (
                         <Link to={'/' + post.slug.current} key={post.slug.current}>
                         <span key={index}>
-                            <img src={post.mainImage.asset.url} alt="main hero image for blog post"/>
+                            <img src={post.mainImage.asset.url} alt="monkey"/>
                             <span>
                                 <h2>{post.title}</h2>
                             </span>
