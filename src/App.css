@@ -1,8 +1,6 @@
 @import url('https://use.typekit.net/kbg5qyn.css');
 
-* {
-  border: 1px solid blue;
-}
+
 body {
   margin: 0;
   font-family: futura-pt, sans-serif;
@@ -17,22 +15,36 @@ body {
 
 
 h1 {
-font-size: 78px;
+font-size: calc(3rem + 4vw);
+/* font-size: 7rem; */
+letter-spacing: calc(1rem + 1vw);
+/* letter-spacing: 2rem; */
 text-transform: uppercase;
+font-weight: 300;
+/* 
+font-size: calc(3rem + 5vw);
+letter-spacing: calc(1rem + 1vw); */
 }
 
 h2 {
+  font-size: 6rem;
+text-transform: uppercase;
+font-weight: 300;
+}
+
+h3 {
   font-size: 24px;
   text-transform: uppercase;
 }
 
-h3 {
-  font-size: 16px;
+h4 {
+  font-size: 1.1rem;
   text-transform: uppercase;
   letter-spacing: 2px;
 }
 
-h4, h5 {
+
+h5 {
   font-family: nunito, sans-serif;
   font-style: normal;
   font-weight: 500;

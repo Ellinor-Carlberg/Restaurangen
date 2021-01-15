@@ -5,22 +5,22 @@ import { NavLink } from "react-router-dom";
 function Header() {
   return (
     <div class="header-wrapper">
-      <h3 class="logo">logga</h3>
+      <h4 class="logo">logga</h4>
       <nav>
-        <h3>
+        <h4>
           <NavLink to="/" exact>
             home
           </NavLink>
-        </h3>
-        <h3>
+        </h4>
+        <h4>
           <NavLink to="/menu">menu</NavLink>
-        </h3>
-        <h3>
+        </h4>
+        <h4>
           <NavLink to="/about">about</NavLink>
-        </h3>
-        <h3>
+        </h4>
+        <h4>
           <NavLink to="/news">news</NavLink>
-        </h3>
+        </h4>
       </nav>
     </div>
   );

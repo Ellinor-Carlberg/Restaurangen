@@ -1,18 +1,52 @@
-.homepage-wrapper {
+.homepage-wrapper .s1-background {
     background-color: lightblue;
+    height: 60rem;
+    
     /* position: absolute;
     top: 0;
     left: 0;
     right: 0; */
-    
-   
 }
 
-.homepage-wrapper h1{
-    margin-left:calc(3rem + 3vw);
-    margin-right:calc(3rem + 3vw);
-    border: 1px solid orange;
-    height: 60rem;
-    
+.s1-wrapper {
+    border: 1px solid red;
+    width: 80%;
+    height:150rem;
+    margin: auto;
+    position: relative;
+    text-align: center;
 }
 
+img {
+    display: block;
+    object-fit: cover;
+    height: 75rem;
+max-width: 100%;
+
+}
+
+
+.s1-text-wrapper{
+    border: 1px solid pink;
+   position: absolute;
+    top: 0;
+    left: 50%;
+  transform: translate(-50%);
+} 
+
+hr {
+    border: 1px solid black;
+}
+/* 
+
+
+
+.s1-wrapper h1 span:last-child{
+    
+} 
+ 
+
+.s1-wrapper h1 span:last-child{
+    
+} 
+  */
