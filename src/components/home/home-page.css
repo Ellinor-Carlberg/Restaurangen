@@ -1,10 +1,10 @@
 .homepage-wrapper {
     background-color: lightblue;
-    position: absolute;
+    /* position: absolute;
     top: 0;
     left: 0;
-    right: 0;
-    z-index: 2;
+    right: 0; */
+    
    
 }
 
@@ -13,6 +13,6 @@
     margin-right:calc(3rem + 3vw);
     border: 1px solid orange;
     height: 60rem;
-    z-index: 1;
+    
 }
 
