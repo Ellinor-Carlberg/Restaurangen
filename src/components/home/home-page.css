@@ -49,7 +49,7 @@ hr {
     padding-top: 8rem;
     border: 1px solid green;
     width: 100%;
-    height:50rem;
+    height: 110vh;
     margin: auto;
     position: relative;
     text-align: center;
@@ -59,8 +59,8 @@ hr {
     display: block;
     object-fit: cover;
     height: 110vh;
-    width: 60%;
-    margin-right: 8rem;
+    width: 50%;
+    margin-right: calc(10% + 8rem);
     margin-left: auto;
     
 }
@@ -70,8 +70,9 @@ hr {
     align-items: flex-start;
     border: 1px solid pink;
    position: absolute;
-   top: 8rem;
-    width: 100%;
+   top: 14rem;
+   left: 10%;
+   right: 10%;
 }
 
 .s2-text-flex div {
@@ -100,3 +101,51 @@ text-justify: inter-word;
 .s2-heading h2{
     margin-right:-1.5rem;
 } 
+
+
+.s3-wrapper {
+    padding-top: 20rem;
+    border: 1px solid purple;
+    width: 100%;
+    height: 110vh;
+    margin: auto;
+    position: relative;
+    text-align: center;
+}
+
+
+.s3-wrapper img {
+    display: block;
+    object-fit: cover;
+    height: 90vh;
+    width: 60%;
+    left: 0;
+    
+}
+
+.s3-heading {
+    border: 1px solid pink;
+   position: absolute;
+    top: 8rem;
+    left: 50%;
+  transform: translate(-50%);
+}
+
+
+.s3-body-text {
+    border: 1px solid turquoise;
+   position: absolute;
+    top: 21rem;
+    right: calc(3rem + 3vw);
+    left: 55vw;
+    text-align: left;
+   
+}
+
+.s3-body-text h5{
+    text-align: justify;
+    text-justify: inter-word;
+        width: 65%;
+}
+
+
