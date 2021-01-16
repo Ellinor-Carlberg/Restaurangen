@@ -70,6 +70,22 @@ function HomePage() {
             </h5>
           </div>
         </div>
+        <div class="s4-wrapper">
+          <img src={mountain} alt="mountain"></img>
+          <div class="s4-text">
+            <div class="s4-heading"><h2>book a table
+            </h2></div>
+            <div class="s4-body-text"><h4>
+              call us on 071943670<hr></hr>
+            </h4>
+            <h5>
+              "For the people, food is heaven. ” This is as true in tropical
+              chili-loving Sichuan as among the hunters on the snow-capped peaks
+              of the Himalayas.
+            </h5></div>
+          </div>
+         
+        </div>
       </div>
     </div>
   );
