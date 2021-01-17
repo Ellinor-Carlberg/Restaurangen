@@ -154,7 +154,7 @@ text-justify: inter-word;
     padding-top: 8rem;
     border: 1px solid purple;
     width: 100%;
-    height: 110vh;
+    height: 50vh;
     margin: auto;
     position: relative;
     text-align: center;
@@ -164,7 +164,7 @@ text-justify: inter-word;
 .s4-wrapper img {
     display: block;
     object-fit: cover;
-    height: 35%;
+    height: 60%;
     width: 40%;
     right: calc(3rem + 3vw);
     position: absolute;
@@ -195,3 +195,128 @@ text-justify: inter-word;
 }
 
 
+
+.s5-s6-background {
+    margin-top: 20rem;
+    background-color: lightblue;
+    height: 220vh;
+/*     position: relative;
+ */    /*top: 20rem; */
+    /* position: absolute;
+    top: 0;
+    left: 0;
+    right: 0; */
+}
+
+
+.s5-wrapper {
+    border: 1px solid pink;
+    position: relative;
+    top: 0rem;
+    height: 90vh;
+    /* position: absolute;
+    top: 0;
+    left: 0;
+    right: 0; */
+}
+
+.s5-wrapper img{
+    position: absolute;
+    top: -10rem;
+    right:calc(3rem + 3vw);
+display: block;
+object-fit: cover;
+height: 90vh;
+width: 80%;
+
+
+    
+    /* position: absolute;
+    top: 0;
+    left: 0;
+    right: 0; */
+}
+
+
+.s5-wrapper h2 {
+    position: absolute;
+    top: -13.5rem;
+    left: 50%;
+  transform: translate(-50%);
+}
+
+
+.s5-body-text {
+    border: 1px solid pink;
+   position: absolute;
+    top: 8rem;
+    left: 10%;
+    width: 50%;
+  text-align: left;
+}
+
+
+.s5-body-text h5{
+    width: 70%;
+  text-align: justify;
+    text-justify: inter-word;
+}
+
+
+
+.s6-wrapper {
+    border: 1px solid pink;
+    position: relative;
+ top: 10rem; 
+
+     /* position: absolute;
+    top: 0;
+    left: 0;
+    right: 0; */
+}
+
+.s6-wrapper img{
+    position: absolute;
+    top: 0;
+    left: 0;;
+display: block;
+object-fit: cover;
+height: 90vh;
+width: 80%;
+
+
+    
+    /* position: absolute;
+    top: 0;
+    left: 0;
+    right: 0; */
+}
+
+
+.s6-wrapper h2 {
+    border: 1px solid pink;
+    
+    position: absolute;
+    top: -3.5rem;
+/*     left: 50%;
+transform: translate(-50%);  */
+  width: 100%;
+  text-align: center;
+ }
+
+
+.s6-body-text {
+    border: 1px solid pink;
+   position: absolute;
+    top: 8rem;
+    left: 10%;
+    width: 50%;
+  text-align: left;
+}
+
+
+.s6-body-text h5{
+    width: 70%;
+  text-align: justify;
+    text-justify: inter-word;
+}
