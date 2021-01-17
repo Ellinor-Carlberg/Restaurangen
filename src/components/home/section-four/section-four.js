@@ -4,7 +4,7 @@ import mountain from "../../../media/mountain.jpg";
 
 function SectionFour() {
   return (
-      <div class="s4-relative">
+    <div class="s4-relative">
       <img src={mountain} alt="mountain"></img>
       <div class="s4-text">
         <div class="s4-text-heading">
@@ -21,7 +21,8 @@ function SectionFour() {
           </h5>
         </div>
       </div>
-    </div>  );
+    </div>
+  );
 }
 
 export default SectionFour;

@@ -1,6 +1,5 @@
 import React from "react";
 import "./home-page.css";
-import mountain from "../../media/mountain.jpg";
 import SectionOne from "./section-one/section-one.js";
 import SectionTwo from "./section-two/section-two.js";
 import SectionThree from "./section-three/section-three.js";
