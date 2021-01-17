@@ -1,0 +1,36 @@
+
+.hp-s1-background {
+    background-color: lightblue;
+    height: 110vh;
+    /* position: absolute;
+    top: 0;
+    left: 0;
+    right: 0; */
+}
+
+.s1-relative {
+    border: 1px solid red;
+    width: 80%;
+   margin: auto;
+    position: relative;
+    text-align: center;
+    display: flex;
+}
+
+.s1-relative img {
+    display: block;
+    object-fit: cover;
+    height: 140vh;
+width: 100%;
+
+}
+
+
+.s1-text{
+    border: 1px solid pink;
+   position: absolute;
+    top: 0;
+    left: 50%;
+  transform: translate(-50%);
+  
+} 

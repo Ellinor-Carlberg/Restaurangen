@@ -12,7 +12,7 @@ import HamburgerMenu from "./components/hamburger-menu/hamburger-menu.js";
 function App() {
   return (
     <div class="app-wrapper">
-      
+      <div class="content-wrapper">
       <HamburgerMenu  />
       
       <BrowserRouter>
@@ -24,8 +24,8 @@ function App() {
           <Route component={OnePost} path="/:slug" />
         </div>
       </BrowserRouter>
-      
-      <Footer />
+      </div>
+      <Footer class="footer" />
     </div>
   );
 }

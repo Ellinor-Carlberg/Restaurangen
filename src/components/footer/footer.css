@@ -1,0 +1,32 @@
+.footer {
+    background-color: beige;
+    height: 60rem;
+} 
+
+
+.footer-relative {
+    border: 1px solid red;
+    width: 30rem;
+    margin: auto;
+    top: 8rem;
+    position: relative;
+    text-align: center;
+}
+
+.footer-relative img {
+    display: block;
+    object-fit: cover;
+    height: 40rem;
+    width: 100%;
+}
+
+
+
+.footer-text{
+    border: 1px solid pink;
+   position: absolute;
+    top: 8rem;
+    left: 50%;
+  transform: translate(-50%);
+  
+} 
