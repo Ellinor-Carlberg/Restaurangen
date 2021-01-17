@@ -36,11 +36,6 @@
   width: 50%;
   text-align: left;
 }
-.s5-text-body h5 {
-  width: 70%;
-  text-align: justify;
-  text-justify: inter-word;
-}
 
 .s6-relative {
   border: 1px solid pink;
@@ -75,8 +70,3 @@
   text-align: left;
 }
 
-.s6-text-body h5 {
-  width: 70%;
-  text-align: justify;
-  text-justify: inter-word;
-}
