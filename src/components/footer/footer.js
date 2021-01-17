@@ -1,6 +1,10 @@
 import React from "react";
 import "./footer.css";
+import { ReactComponent as Facebook } from "../../media/svg/001-facebook.svg";
+import { ReactComponent as Instagram } from "../../media/svg/002-instagram.svg";
+import { ReactComponent as TikTok } from "../../media/svg/004-tiktok.svg";
 import mountain from "../../media/mountain.jpg";
+
 
 function Footer() {
   return (
@@ -20,6 +24,9 @@ function Footer() {
           </h4>
         </div>
         <div class="footer-social">
+          <Facebook class="icon" />
+          <Instagram class="icon" />
+          <TikTok class="icon" />
           <hr></hr>
           </div>
           <div class="footer-logo">LOGO</div>

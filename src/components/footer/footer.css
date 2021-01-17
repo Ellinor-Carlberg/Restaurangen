@@ -49,10 +49,20 @@
     position: absolute;
     bottom: 2rem;
     width: 100%;
+    text-align: left;
    /*  margin-left: .8rem; 
     left: 50%;
     transform: translate(-50%);  */
 } 
+
+
+.icon {
+    width: 2rem;
+    height: 2rem;
+    padding-left: 1rem;
+    left: 0;
+}
+
 
 .footer-logo {
     position: absolute;
@@ -60,8 +70,6 @@
     left: 50%;
     transform: translate(-50%);
 }
-
-
 
 
 /* 
