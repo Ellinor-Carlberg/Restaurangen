@@ -62,11 +62,12 @@
 }
 
 .s6-text-body {
-  border: 1px solid pink;
-  position: absolute;
-  top: 8rem;
-  left: 10%;
-  width: 50%;
-  text-align: left;
+ 
+border: 1px solid turquoise;
+position: absolute;
+top: 21rem;
+right: calc(3rem + 3vw);
+/* left: 55vw; */
+text-align: left;
+width: 55vw;
 }
-
