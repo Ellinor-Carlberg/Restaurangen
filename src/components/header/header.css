@@ -47,6 +47,10 @@ padding-bottom: 10vh;
     color: black;
 }
 
+.news {
+    color: hotpink;
+  } 
+
 .nav-link:hover {
     color: yellow;
     font-size: 110%;

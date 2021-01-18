@@ -1,38 +1,38 @@
 .hamburger-wrapper {
   border-left: 2px solid black;
-
- width: calc(3rem + 3vw);
+  width: calc(3rem + 3vw);
   height: calc(3rem + 3vw);
-
   position: fixed;
   top: 0;
   right: 0;
   left: calc(100vw - (3rem + 3vw));
   z-index: 101;
   box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
-.hamburger-wrapper nav {
+.icon-wrapper {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100%;
 }
-.hamburger-wrapper div {
-  padding-left: calc((0.7rem + 0.5vw) / 5);
-  display: flex;
-  width: 50%;
+.icon-wrapper div {
+  padding-left: calc((0.7rem + 0.5vw) / 3);
+ display: flex;
+  width: 50%; 
 }
 
-.hamburger-wrapper span {
+.icon-wrapper span {
   margin: 0;
   font-family: futura-pt, sans-serif;
   font-size: calc(0.7rem + 0.5vw);
   text-transform: uppercase;
   font-weight: 700;
   width: 50%;
-  align-self: flex-end;
+ align-self: flex-end;
 }
 
 .menu {
@@ -41,6 +41,30 @@
   right: 0;
   width: 100vw;
   height: 100vh;
-background-color: lightgreen;
-z-index: 100;
+  background-color: lightgreen;
+  z-index: 100;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* text-align: center; */
 }
+
+.menu .nav-link {
+  text-decoration: none;
+  color: black;
+}
+
+.menu .news {
+  color: hotpink;
+}
+
+.menu .nav-link:hover {
+  color: yellow;
+  font-size: 110%;
+}
+/* 
+.menu-wrapper {
+  
+overflow: hidden;
+} */

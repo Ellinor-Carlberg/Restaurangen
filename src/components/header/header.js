@@ -16,11 +16,12 @@ function Header() {
           <NavLink class="nav-link" to="/menu">menu</NavLink>
         </h4>
         <h4>
-          <NavLink class="nav-link" to="/about">about</NavLink>
+          <NavLink class="nav-link news" to="/news">news</NavLink>
         </h4>
         <h4>
-          <NavLink class="nav-link" to="/news">news</NavLink>
+          <NavLink class="nav-link" to="/about">about</NavLink>
         </h4>
+       
       </nav>
     </div>
   );

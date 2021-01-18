@@ -9,32 +9,60 @@ function HamburgerMenu() {
   const [showMenu, setShowMenu] = useState(false);
 
   let menu;
+  let menuIcon;
 
   if (showMenu) {
     menu = (
       <div className="menu">
         <nav>
           <h4>
-            <NavLink class="nav-link" to="/" exact>
+            <NavLink  onClick={() => setShowMenu(!showMenu)}className="nav-link" to="/" exact>
               home
             </NavLink>
           </h4>
           <h4>
-            <NavLink class="nav-link" to="/menu">
+            <NavLink onClick={() => setShowMenu(!showMenu)}className="nav-link" to="/menu">
               menu
             </NavLink>
           </h4>
           <h4>
-            <NavLink class="nav-link" to="/about">
-              about
-            </NavLink>
-          </h4>
-          <h4>
-            <NavLink class="nav-link" to="/news">
+            <NavLink onClick={() => setShowMenu(!showMenu)}className="nav-link news" to="/news">
               news
             </NavLink>
           </h4>
+          <h4>
+            <NavLink onClick={() => setShowMenu(!showMenu)}className="nav-link" to="/about">
+              about
+            </NavLink>
+          </h4>
         </nav>
+      </div>
+    );
+  }
+  if (showMenu) {
+    menuIcon = (
+      <div className="icon-wrapper">
+        <div>
+          <span className="letter">c</span>
+          <span className="letter">l</span>
+        </div>
+        <div>
+          <span className="letter">s</span>
+          <span className="letter">e</span>
+        </div>
+      </div>
+    );
+  } else {
+    menuIcon = (
+      <div className="icon-wrapper">
+        <div>
+          <span className="letter">o</span>
+          <span className="letter">p</span>
+        </div>
+        <div>
+          <span className="letter">e</span>
+          <span className="letter">n</span>
+        </div>
       </div>
     );
   }
@@ -44,17 +72,10 @@ function HamburgerMenu() {
     <div>
       <div class="hamburger-wrapper">
         <nav onClick={() => setShowMenu(!showMenu)}>
-          <div>
-            <span class="letter">o</span>
-            <span class="letter">p</span>
-          </div>
-          <div>
-            <span class="letter">e</span>
-            <span class="letter">n</span>
-          </div>
+          {menuIcon}
         </nav>
       </div>
-      <div>{menu}</div>
+      <div class="menu-wrapper">{menu}</div>
     </div>
   );
 }
