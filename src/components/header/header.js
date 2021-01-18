@@ -8,18 +8,18 @@ function Header() {
       <h4 class="logo">logga</h4>
       <nav>
         <h4>
-          <NavLink to="/" exact>
+          <NavLink class="nav-link" to="/" exact>
             home
           </NavLink>
         </h4>
         <h4>
-          <NavLink to="/menu">menu</NavLink>
+          <NavLink class="nav-link" to="/menu">menu</NavLink>
         </h4>
         <h4>
-          <NavLink to="/about">about</NavLink>
+          <NavLink class="nav-link" to="/about">about</NavLink>
         </h4>
         <h4>
-          <NavLink to="/news">news</NavLink>
+          <NavLink class="nav-link" to="/news">news</NavLink>
         </h4>
       </nav>
     </div>
