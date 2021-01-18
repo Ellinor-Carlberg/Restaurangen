@@ -1,19 +1,24 @@
 .hamburger-wrapper {
   border-left: 2px solid black;
-  display: flex;
-  flex-direction: column;
-  width: calc(3rem + 3vw);
+
+ width: calc(3rem + 3vw);
   height: calc(3rem + 3vw);
-  justify-content: center;
-  align-items: center;
+
   position: fixed;
   top: 0;
   right: 0;
   left: calc(100vw - (3rem + 3vw));
-  z-index: 100;
+  z-index: 101;
   box-sizing: border-box;
 }
 
+.hamburger-wrapper nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
 .hamburger-wrapper div {
   padding-left: calc((0.7rem + 0.5vw) / 5);
   display: flex;
@@ -28,4 +33,14 @@
   font-weight: 700;
   width: 50%;
   align-self: flex-end;
+}
+
+.menu {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100vw;
+  height: 100vh;
+background-color: lightgreen;
+z-index: 100;
 }

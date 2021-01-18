@@ -6,24 +6,23 @@ import HomePage from "./components/home/home-page.js";
 import MenuPage from "./components/menu/menu-page.js";
 import AboutPage from "./components/about/about-page.js";
 import NewsPage from "./components/news/news-page.js";
-import OnePost from "./components/news/one-post.js"
+import OnePost from "./components/news/one-post.js";
 import HamburgerMenu from "./components/hamburger-menu/hamburger-menu.js";
 
 function App() {
   return (
     <div class="app-wrapper">
       <div class="content-wrapper">
-      <HamburgerMenu  />
-      
-      <BrowserRouter>
-        <div>
-          <Route component={HomePage} path="/" exact />
-          <Route component={MenuPage} path="/menu" />
-          <Route component={AboutPage} path="/about" />
-          <Route component={NewsPage} path="/news" />
-          <Route component={OnePost} path="/:slug" />
-        </div>
-      </BrowserRouter>
+        <BrowserRouter>
+          <HamburgerMenu />
+          <div>
+            <Route component={HomePage} path="/" exact />
+            <Route component={MenuPage} path="/menu" />
+            <Route component={AboutPage} path="/about" />
+            <Route component={NewsPage} path="/news" />
+            <Route component={OnePost} path="/:slug" />
+          </div>
+        </BrowserRouter>
       </div>
       <Footer class="footer" />
     </div>
