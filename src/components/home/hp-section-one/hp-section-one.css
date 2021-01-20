@@ -3,7 +3,7 @@
   height: 110vh;
 }
 
-.s1-relative {
+.hp-s1-relative {
   border: 1px solid red;
   width: 80%;
   margin: auto;
@@ -12,14 +12,14 @@
   display: flex;
 }
 
-.s1-relative img {
+.hp-s1-relative img {
   display: block;
   object-fit: cover;
   height: 140vh;
   width: 100%;
 }
 
-.s1-text {
+.hp-s1-text {
   border: 1px solid pink;
   position: absolute;
   top: 0;

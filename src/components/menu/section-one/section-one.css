@@ -1,0 +1,30 @@
+.mp-s1-background {
+    background-color: lightblue;
+    height: 100vh;
+  }
+  
+  .mp-s1-relative {
+    border: 1px solid red;
+    width: 80%;
+    margin: auto;
+    position: relative;
+    text-align: center;
+    display: flex;
+  }
+  
+  .mp-s1-relative img {
+    display: block;
+    object-fit: cover;
+    height: 60vh;
+    width: 100%;
+  }
+  
+  .mp-s1-text {
+    border: 1px solid pink;
+    position: absolute;
+    top: 0rem;
+    width: 100%;
+    left: 50%;
+    transform: translate(-50%);
+  }
+  

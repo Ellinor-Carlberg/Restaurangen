@@ -1,15 +1,13 @@
 import React from "react";
-import "./section-one.css";
-import Header from "../../header/header.js";
+import "./hp-section-one.css";
 import mountain from "../../../media/mountain.jpg";
 
 function SectionOne() {
   return (
     <div class="hp-s1-background">
-      <Header />
-      <div class="s1-relative">
+      <div class="hp-s1-relative">
         <img src={mountain} alt="mountain"></img>
-        <div class="s1-text">
+        <div class="hp-s1-text">
           <h1>welcome</h1>
           <h1>
             <span>to </span>

@@ -21,8 +21,8 @@
 }
 .icon-wrapper div {
   padding-left: calc((0.7rem + 0.5vw) / 3);
- display: flex;
-  width: 50%; 
+  display: flex;
+  width: 50%;
 }
 
 .icon-wrapper span {
@@ -32,7 +32,7 @@
   text-transform: uppercase;
   font-weight: 700;
   width: 50%;
- align-self: flex-end;
+  align-self: flex-end;
 }
 
 .menu {
@@ -47,24 +47,4 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  /* text-align: center; */
 }
-
-.menu .nav-link {
-  text-decoration: none;
-  color: black;
-}
-
-.menu .news {
-  color: hotpink;
-}
-
-.menu .nav-link:hover {
-  color: yellow;
-  font-size: 110%;
-}
-/* 
-.menu-wrapper {
-  
-overflow: hidden;
-} */

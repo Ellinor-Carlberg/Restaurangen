@@ -1,0 +1,29 @@
+.nav-link {
+  text-decoration: none;
+  color: black;
+}
+
+.news {
+  color: hotpink;
+}
+
+.nav-link:link {
+  text-decoration: none;
+}
+
+.nav-link::visited {
+  text-decoration: none;
+}
+
+.nav-link::focus {
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  color: yellow;
+  font-size: 110%;
+}
+
+.nav-link::active {
+  text-decoration: none;
+}

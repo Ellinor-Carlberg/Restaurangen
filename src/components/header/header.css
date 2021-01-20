@@ -3,15 +3,7 @@
 border: 1px solid yellow;
 justify-content: space-between;
 height: calc(3rem + 3vw);
-padding-bottom: 10vh;
-    /* justify-content: space-around;
-    align-items: flex-start; */
-    /* border: 1px solid yellow; */
-   /*  height: 40rem;
-     */
-   /* position: relative; */
-    /* top: 0;
-    left: 0; */
+padding-bottom: 12vh;
 }
 
 .logo {
@@ -41,17 +33,3 @@ padding-bottom: 10vh;
 .header-wrapper nav h4:last-child{
     padding-right: 0rem;
 } 
-
-.nav-link {
-    text-decoration: none;
-    color: black;
-}
-
-.news {
-    color: hotpink;
-  } 
-
-.nav-link:hover {
-    color: yellow;
-    font-size: 110%;
-  }

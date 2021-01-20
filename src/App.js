@@ -8,6 +8,7 @@ import AboutPage from "./components/about/about-page.js";
 import NewsPage from "./components/news/news-page.js";
 import OnePost from "./components/news/one-post.js";
 import HamburgerMenu from "./components/hamburger-menu/hamburger-menu.js";
+import Header from "./components/header/header.js";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <div class="content-wrapper">
         <BrowserRouter>
           <HamburgerMenu />
+          <Header />
           <div>
             <Route component={HomePage} path="/" exact />
             <Route component={MenuPage} path="/menu" />
@@ -30,24 +32,3 @@ function App() {
 }
 
 export default App;
-
-/*
-
-
-     <Route component={AllPosts} path="/" exact />
-          <Route component={OnePost} path="/:slug" />
-
-<header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>*/
