@@ -1,5 +1,5 @@
 .mp-s1-background {
-    background-color: lightblue;
+    background-color: var(--white);
     height: 100vh;
   }
   
@@ -7,10 +7,13 @@
     border: 1px solid red;
     width: 80%;
     margin: auto;
+    top: 10rem;
     position: relative;
-    text-align: center;
-    display: flex;
-  }
+    color: var(--blue);
+   /*  text-align: center;
+    display: flex; */
+}
+  
   
   .mp-s1-relative img {
     display: block;
@@ -18,13 +21,86 @@
     height: 60vh;
     width: 100%;
   }
+
   
   .mp-s1-text {
+    color: var(--blue);
     border: 1px solid pink;
     position: absolute;
-    top: 0rem;
-    width: 100%;
+    top: -4rem;
+     width: 100%; 
     left: 50%;
     transform: translate(-50%);
   }
+
+
+
+
+
+.mp-s1-text hr {
+  border: 2px solid var(--blue);
+  width: 100%;
+}
+/* 
+.hp-s1-text div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
   
+  width: 100%;
+} 
+
+.hp-s1-text h1 {
+  letter-spacing: 0;
+  margin-right: -.4rem;
+}
+
+
+
+.hp-s1-text div .m-letter{
+  margin-left: 2rem;
+} 
+
+.hp-s1-text .miri{
+  margin-right: -1.5rem;
+} 
+
+.hp-s1-text .h3-wrapper{
+  padding-top: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+} 
+
+.hp-s1-text .h3-wrapper h3{
+  letter-spacing: 0;
+} 
+
+.hp-s1-text .h3-wrapper .f-letter, .r-letter{
+  margin-left: .8rem;
+} 
+
+
+.hp-s1-relative img {
+  display: block;
+  object-fit: cover;
+  height: 140vh;
+  width: 100%;
+}
+
+
+
+/* Devices (tablets, less than 70em (px)*/
+/* @media screen and (max-width: 70em) {
+  .hp-s1-text {
+    width: 60vw;
+  }
+}  */
+
+/* Medium devices (tablets, less than 67em (992px)*/
+/* @media screen and (max-width: 60em) {
+  .hp-s1-text {
+    width: 70vw;
+  }
+}  */ 
