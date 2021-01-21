@@ -1,5 +1,29 @@
 @import url("https://use.typekit.net/kbg5qyn.css");
 
+:root {
+  --black: #000000; 
+  --grey: #CCCCCA;
+  --greyLight: #F0F0F0;
+  --white: #FFFFFF;
+
+  --brownDark: #3E3E34;
+  --brown: #585950;
+  --brownLight: #9FA0A0;
+  --yellow: #F7F855;
+  --yellowLight: #FDFEA5;
+  --orange: #FFB33F;
+  --red: #FF4255;
+  --pinkWarm: #FFBEBC;
+  --pinkCold: #F9D3DA;
+  --blue: #4600C2;
+  --blueLight: #C7D7F5;
+  --green: #78C7C6;
+  --greenLight: #CEE8E8;
+  --beige: #EFE9D9;
+
+  --blueLogo: #00ACF0;
+}
+
 body {
   margin: 0;
   font-family: futura-pt, sans-serif;
