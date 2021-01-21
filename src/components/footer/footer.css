@@ -16,6 +16,7 @@
 
 .footer-relative hr {
     border: 2px solid var(--blue);
+    width: 99%;
 }
 
 .footer-relative img {

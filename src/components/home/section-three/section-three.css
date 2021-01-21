@@ -1,6 +1,6 @@
 .s3-relative {
   color: var(--red);
-  padding-top: 16rem;
+  padding-top: 22rem;
   border: 1px solid purple;
   width: 100%;
   margin: auto;
@@ -12,27 +12,30 @@
   display: block;
   object-fit: cover;
   height: 90vh;
-  width: 60%;
+  width: 65%;
   left: 0;
 }
 
 .s3-text-heading {
   border: 1px solid pink;
   position: absolute;
-  top: 8rem;
-  left: 50%;
-  transform: translate(-50%);
+  top: 11rem;
+  /* right: calc(3rem + 3vw); */
+   /* transform: translate(-50%); 
+   left:  50%; */
+width: 100%;
+
 }
 
 .s3-text-body {
   
   border: 1px solid turquoise;
   position: absolute;
-  top: 21rem;
+  top: 26rem;
   right: calc(3rem + 3vw);
   /* left: 55vw; */
   text-align: left;
-  width: 55vw;
+  /* width: 55vw; */
 }
 /* 
 .s3-text-body h5 {

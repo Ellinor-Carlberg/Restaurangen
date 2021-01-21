@@ -1,7 +1,7 @@
 .s5-s6-background {
-  margin-top: 20rem;
+  margin-top: 19rem;
   background-color: var(--pinkWarm);
-  height: 220vh;
+  height: 230vh;
 }
 
 .s5-relative hr, .s6-relative hr {
@@ -12,23 +12,23 @@
   color: var(--blue);
   border: 1px solid pink;
   position: relative;
-  top: 0rem;
+  top: 1rem;
   height: 90vh;
 }
 
 .s5-relative img {
   position: absolute;
-  top: -10rem;
-  right: calc(3rem + 3vw);
+  top: -9rem;
+  right: 10%;
   display: block;
   object-fit: cover;
   height: 90vh;
-  width: 80%;
+  width: 70%;
 }
 
 .s5-relative h2 {
   position: absolute;
-  top: -13.5rem;
+  top: -12.25rem;
   left: 50%;
   transform: translate(-50%);
 }
@@ -46,7 +46,8 @@
   color: var(--blue);
   border: 1px solid pink;
   position: relative;
-  top: 10rem;
+  top: 8rem;
+  width: 100%;
 }
 
 
@@ -58,13 +59,13 @@
   display: block;
   object-fit: cover;
   height: 90vh;
-  width: 80%;
+  width: 65%;
 }
 
 .s6-relative h2 {
   border: 1px solid pink;
   position: absolute;
-  top: -3.5rem;
+  top: -3.25rem;
   width: 100%;
   text-align: center;
 }
@@ -73,9 +74,9 @@
  
 border: 1px solid turquoise;
 position: absolute;
-top: 21rem;
+top: 13rem;
 right: calc(3rem + 3vw);
 /* left: 55vw; */
 text-align: left;
-width: 55vw;
+/* width: 55vw; */
 }

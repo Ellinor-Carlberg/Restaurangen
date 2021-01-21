@@ -26,6 +26,7 @@
 
 .hp-s1-text hr {
   border: 2px solid var(--yellow);
+  width: 100%;
 }
 
 .hp-s1-text div {

@@ -1,8 +1,7 @@
 .s2-relative {
-  padding-top: calc(16rem + 30vh);
+  padding-top: calc(18rem + 30vh);
   border: 1px solid green;
   width: 100%;
-
   margin: auto;
   position: relative;
   text-align: center;
@@ -26,36 +25,20 @@
   justify-content: space-between;
   border: 1px solid pink;
   position: absolute;
-  top: calc(20rem + 30vh);
+  top: calc(23rem + 30vh);
   left: 10%;
   right: 10%; 
-  /* 
-  margin: auto; */
 }
-/* 
-.s2-text div {
-  width: 100%;
-  border: 1px solid black; 
-} */
 
-.s2-text hr {
-  border: 2px solid var(--red);
-  
-}
 
 .s2-text-body {
   text-align: left;
   border: 1px solid orange;
-  max-width: 60vw;
+  
   padding-top: .6rem;
 }
 
-/* .s2-text-body h5 {
-  text-align: justify;
-  text-justify: inter-word;
-  width: 65%;
-}
- */
+
 .s2-heading {
   text-align: right; 
   border: 1px solid lightgreen;
@@ -63,5 +46,11 @@
 }
 
 .s2-heading h2{
-   margin-right: -1.9rem; 
+   margin-right: -2.2rem;
+   padding-bottom: .5rem; 
+}
+
+.s2-text hr {
+  border: 2px solid var(--red);
+  
 }
