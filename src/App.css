@@ -20,15 +20,20 @@ body {
 }
 
 hr {
-  border: 1px solid black;
+  border: 2px solid black;
 }
 
 h1 {
-  font-size: calc(3rem + 4vw);
-  letter-spacing: calc(1rem + 1vw);
+  font-size: 7rem;
+  letter-spacing: 1rem;
   text-transform: uppercase;
-  font-weight: 300;
-  margin-top: 0;
+  font-style: normal;
+  font-weight: 500;
+  margin: 0;
+  line-height: 9rem;
+ /*  text-align: justify;
+  text-justify: inter-word; 
+  width: 100%; */
 }
 
 h2 {
@@ -37,22 +42,27 @@ h2 {
   text-transform: uppercase;
   font-weight: 300;
   margin: 0;
+  
 }
 
-/* h3 {
-  font-size: 24px;
+ h3 {
+  font-size: 1.5rem;
   text-transform: uppercase;
-  letter-spacing: 2px;
-} */
+  letter-spacing: .5rem;
+  font-weight: 600;
+  margin: 0.5rem 0;
+ }
 
 h4 {
-  font-size: 1.1rem;
+  font-size: 1rem;
   text-transform: uppercase;
-  letter-spacing: 0.1rem;
+  letter-spacing: .5rem;
+  font-weight: 600;
+  margin: 0.5rem 0;
 }
 
 h5 {
-  font-size: 1rem;
+  font-size: 1.2rem;
   letter-spacing: 0.1rem;
   font-family: nunito, sans-serif;
   font-style: normal;

@@ -9,9 +9,9 @@ function SectionOne() {
         <img src={mountain} alt="mountain"></img>
         <div class="mp-s1-text">
           <h1>our menu</h1>
-          <h4>
+          <h3>
             asian fusion restaurant<hr></hr>
-          </h4>
+          </h3>
         </div>
       </div>
     </div>

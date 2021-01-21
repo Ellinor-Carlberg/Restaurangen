@@ -1,0 +1,74 @@
+.hp-s1-background {
+  background-color: lightblue;
+  height: 110vh;
+}
+
+.hp-s1-relative {
+  width: 80%;
+  margin: auto;
+  position: relative;
+  top: 10rem;
+
+  border: 1px solid red;
+}
+
+
+.hp-s1-text {
+  position: absolute;
+  top: 5rem;
+  left: 50%;
+  transform: translate(-50%);
+  width: 70%;
+
+  border: 1px solid pink;
+  
+}
+
+.hp-s1-text div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-right: -1.2rem;
+} 
+
+.hp-s1-text div .m-letter{
+  margin-left: 2rem;
+} 
+
+.hp-s1-text .miri{
+  margin-right: -1.5rem;
+} 
+
+.hp-s1-text .h3-wrapper{
+  padding-top: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+} 
+
+.hp-s1-text .h3-wrapper h3{
+  letter-spacing: 0;
+} 
+
+.hp-s1-text .h3-wrapper .f-letter, .r-letter{
+  margin-left: .8rem;
+} 
+
+
+.hp-s1-relative img {
+  display: block;
+  object-fit: cover;
+  height: 140vh;
+  width: 100%;
+}
+
+
+
+/* Medium devices (tablets, less than 62em (992px)*/
+@media screen and (max-width: 67em) {
+  .hp-s1-text h1 {
+    font-size: 5rem;
+    letter-spacing: .7rem;
+  }
+}

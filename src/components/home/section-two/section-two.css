@@ -41,6 +41,7 @@
   text-align: left;
   border: 1px solid orange;
   max-width: 60vw;
+  padding-top: .6rem;
 }
 
 /* .s2-text-body h5 {

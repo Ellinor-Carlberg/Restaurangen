@@ -9,9 +9,9 @@ function SectionTwo() {
     <img src={mountain} alt="mountain"></img>
     <div class="s2-text">
       <div class="s2-text-body">
-        <h4>
+        <h3>
           a little bit about us<hr></hr>
-        </h4>
+        </h3>
         <h5>
           "For the people, food is heaven. ” This is as true in tropical
           chili-loving Sichuan as among the hunters on the snow-capped peaks
