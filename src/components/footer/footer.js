@@ -3,8 +3,8 @@ import "./footer.css";
 import { ReactComponent as Facebook } from "../../media/svg/001-facebook.svg";
 import { ReactComponent as Instagram } from "../../media/svg/002-instagram.svg";
 import { ReactComponent as TikTok } from "../../media/svg/004-tiktok.svg";
+import { ReactComponent as Logo } from "../../media/svg/miri-logo.svg";
 import mountain from "../../media/mountain.jpg";
-
 
 function Footer() {
   return (
@@ -12,26 +12,28 @@ function Footer() {
       <div class="footer-relative">
         <img src={mountain} alt="mountain"></img>
         <h2>CONTACT</h2>
-          <div class="footer-text">
-          <h4>
-          Sankt Eriksgatan 70, 113 20 Stockholm
-          </h4>
-          <h4>
-          phone 040-121490
-          </h4>
-          <h4>
-          OPENING HOURS: Monday - Sunday 11:30 - 22:00
-          </h4>
+        <div class="footer-text">
+          <h4>Sankt Eriksgatan 70, 113 20 Stockholm</h4>
+          <h4>OPENING HOURS</h4>
+          <h4> Monday - Sunday 11:30 - 22:00</h4>
+          <h3>phone 040-121490</h3>
         </div>
         <div class="footer-social">
           <Facebook class="icon" />
           <Instagram class="icon" />
           <TikTok class="icon" />
           <hr></hr>
+          <div class="logo-wrapper">
+            <div>
+              <div class="row">
+                <h4>restaurant miri</h4>
+                <Logo class="logo" />
+              </div>
+            </div>
+            <hr></hr>
           </div>
-          <div class="footer-logo">LOGO</div>
+        </div>
       </div>
-      
     </div>
   );
 }

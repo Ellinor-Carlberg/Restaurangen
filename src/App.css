@@ -44,7 +44,6 @@ body {
 }
 
 hr {
-  border: 2px solid black;
   margin-top: 1rem;
 }
 
@@ -87,7 +86,7 @@ h2 {
  }
 
 h4 {
-  font-size: 1rem;
+  font-size: 1.1rem;
   text-transform: uppercase;
   letter-spacing: .15rem;
   font-weight: 600;

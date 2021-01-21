@@ -14,7 +14,7 @@ function HamburgerMenu() {
 
   if (showMenu) {
     menu = (
-      <div className="menu">
+      <div className="menu ">
         <Navigation onClick={changeStateFromNav} />
       </div>
     );

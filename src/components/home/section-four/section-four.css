@@ -1,4 +1,8 @@
 .s4-relative {
+
+color: var(--red);
+  
+
   padding-top: 8rem;
   border: 1px solid purple;
   width: 100%;
@@ -28,4 +32,10 @@
 
 .s4-text-body {
   width: 50%;
+}
+
+
+.s4-text-body hr {
+  border: 2px solid var(--red);
+  
 }

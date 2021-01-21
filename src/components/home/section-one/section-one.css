@@ -1,5 +1,5 @@
 .hp-s1-background {
-  background-color: lightblue;
+  background-color: var(--blueLight);
   height: 110vh;
 }
 
@@ -14,22 +14,34 @@
 
 
 .hp-s1-text {
+  color: var(--yellow);
   position: absolute;
   top: 5rem;
   left: 50%;
   transform: translate(-50%);
-  width: 70%;
+  width: 60%;
 
   border: 1px solid pink;
-  
+}
+
+.hp-s1-text hr {
+  border: 2px solid var(--yellow);
 }
 
 .hp-s1-text div {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin-right: -1.2rem;
+  
+  width: 100%;
 } 
+
+.hp-s1-text h1 {
+  letter-spacing: 0;
+  margin-right: -.4rem;
+}
+
+
 
 .hp-s1-text div .m-letter{
   margin-left: 2rem;
@@ -65,10 +77,16 @@
 
 
 
-/* Medium devices (tablets, less than 62em (992px)*/
-@media screen and (max-width: 67em) {
-  .hp-s1-text h1 {
-    font-size: 5rem;
-    letter-spacing: .7rem;
+/* Devices (tablets, less than 70em (px)*/
+@media screen and (max-width: 70em) {
+  .hp-s1-text {
+    width: 60vw;
   }
-}
+} 
+
+/* Medium devices (tablets, less than 67em (992px)*/
+@media screen and (max-width: 60em) {
+  .hp-s1-text {
+    width: 70vw;
+  }
+} 

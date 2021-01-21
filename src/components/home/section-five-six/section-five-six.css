@@ -1,10 +1,15 @@
 .s5-s6-background {
   margin-top: 20rem;
-  background-color: lightblue;
+  background-color: var(--pinkWarm);
   height: 220vh;
 }
 
+.s5-relative hr, .s6-relative hr {
+  border: 2px solid var(--blue);
+}
+
 .s5-relative {
+  color: var(--blue);
   border: 1px solid pink;
   position: relative;
   top: 0rem;
@@ -38,10 +43,13 @@
 }
 
 .s6-relative {
+  color: var(--blue);
   border: 1px solid pink;
   position: relative;
   top: 10rem;
 }
+
+
 
 .s6-relative img {
   position: absolute;

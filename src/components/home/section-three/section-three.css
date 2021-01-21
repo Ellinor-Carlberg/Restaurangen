@@ -1,4 +1,5 @@
 .s3-relative {
+  color: var(--red);
   padding-top: 16rem;
   border: 1px solid purple;
   width: 100%;
@@ -24,6 +25,7 @@
 }
 
 .s3-text-body {
+  
   border: 1px solid turquoise;
   position: absolute;
   top: 21rem;
@@ -39,3 +41,8 @@
   width: 65%;
 }
  */
+
+ .s3-text-body hr {
+  border: 2px solid var(--red);
+  
+}

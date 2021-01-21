@@ -1,5 +1,5 @@
 .hamburger-wrapper {
-  border-left: 2px solid black;
+  border-left: 2px solid var(--black);
   width: calc(3rem + 3vw);
   height: calc(3rem + 3vw);
   position: fixed;
@@ -26,6 +26,7 @@
 }
 
 .icon-wrapper span {
+  color: var(--brownDark);
   margin: 0;
   font-family: futura-pt, sans-serif;
   font-size: calc(0.7rem + 0.5vw);
@@ -41,10 +42,21 @@
   right: 0;
   width: 100vw;
   height: 100vh;
-  background-color: lightgreen;
+  background-color: var(--beige);
   z-index: 100;
   overflow: hidden;
   display: flex;
   align-items: center;
   justify-content: center;
 }
+
+.menu h4 {
+  font-size: 3rem;
+  letter-spacing: 1rem;
+  text-transform: uppercase;
+  font-weight: 400;
+  margin: 0;
+  line-height: 5rem;
+}
+
+

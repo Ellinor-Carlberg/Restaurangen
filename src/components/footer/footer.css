@@ -1,10 +1,11 @@
 .footer {
     background-color: beige;
-    height: 60rem;
+    height: 73rem;
 } 
 
 
 .footer-relative {
+    color: var(--blue);
     border: 1px solid red;
     width: 35rem;
     margin: auto;
@@ -13,11 +14,15 @@
     text-align: center;
 }
 
+.footer-relative hr {
+    border: 2px solid var(--blue);
+}
+
 .footer-relative img {
     display: block;
     object-fit: cover;
-    height: 40rem;
-    width: 30rem;
+    height: 38rem;
+    width: 29rem;
     margin:auto;
 }
 
@@ -27,7 +32,7 @@
     border: 1px solid pink;
     position: absolute;
     top: -3.5rem;
-    margin-left: .8rem; 
+    margin-left: .9rem; 
     left: 50%;
     transform: translate(-50%);
 } 
@@ -36,12 +41,19 @@
 .footer-text{
     border: 1px solid pink;
     position: absolute;
-    top: 5rem;
-    margin-left: .8rem; 
+    top: 3rem;
+    width: 80%;
     left: 50%;
     transform: translate(-50%);
 } 
 
+.footer-text h4:nth-child(2)  {
+    padding-top: 2rem;
+}
+
+.footer-text h3  {
+    padding-top: 1rem;
+}
 
 
 .footer-social{
@@ -50,27 +62,52 @@
     bottom: 2rem;
     width: 100%;
     text-align: left;
-   /*  margin-left: .8rem; 
-    left: 50%;
-    transform: translate(-50%);  */
 } 
 
 
 .icon {
-    width: 2rem;
-    height: 2rem;
-    padding-left: 1rem;
+    fill: var(--blue);
+    width: 1.5rem;
+    height: 1.5rem;
+    padding-right: .5rem;
     left: 0;
 }
 
 
-.footer-logo {
+.footer .logo-wrapper {
+    fill: var(--blue);
+    width: 70%;
+    height: 1rem;
     position: absolute;
-    bottom: -6rem;
+    padding-top: 15rem;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid red;
     left: 50%;
     transform: translate(-50%);
+
+
+} 
+
+.footer .row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
+.footer .logo {
+    fill: var(--blue);
+    height: 1rem;
+} 
+
+
+.footer-relative .logo-wrapper hr{
+    border: 2px solid var(--blue);
+    width: 100%;
+}
 
 /* 
 .footer-text{

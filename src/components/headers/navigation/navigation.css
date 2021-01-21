@@ -1,10 +1,11 @@
 .nav-link {
   text-decoration: none;
-  color: black;
+  color: var(--brownDark);
 }
 
 .news {
-  color: hotpink;
+  font-size: 105%;
+  
 }
 
 .nav-link:link {
@@ -20,8 +21,7 @@
 }
 
 .nav-link:hover {
-  color: yellow;
-  font-size: 110%;
+  font-size: 115%;
 }
 
 .nav-link::active {
