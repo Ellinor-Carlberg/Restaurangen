@@ -3,6 +3,7 @@ import "./menu-page.css";
 import SectionOne from "./section-one/section-one.js"
 import SectionTwoAndThree from "./section-two-three/section-two-three.js"
 import SectionFour from "./section-four/section-four.js"
+import SectionFiveAndSix from "./section-five-six/section-five-six.js"
 
 function MenuPage() {
   return (
@@ -10,7 +11,7 @@ function MenuPage() {
       <SectionOne />
       <SectionTwoAndThree />
       <SectionFour />
-      <div>Section five and six</div>
+      <SectionFiveAndSix />
     </div>
   );
 }

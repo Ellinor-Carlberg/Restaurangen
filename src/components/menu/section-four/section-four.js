@@ -8,7 +8,7 @@ function SectionFour() {
       <div class="mp-s4-relative">
         <img src={mountain} alt="mountain"></img>
         <div class="mp-s4-heading-small">
-          <h2 class="h4-small">Desserts</h2>
+          <h2 class="h2-small">Desserts</h2>
         </div>
         <div class="mp-s4-menu">
           <h3>hello</h3>
