@@ -1,0 +1,57 @@
+.ap-s2-relative {
+    padding-top: 19vh;
+    border: 1px solid green;
+    width: 100%;
+    margin: auto;
+    position: relative;
+    text-align: center;
+  }
+  
+  .ap-s2-relative img {
+    display: block;
+    object-fit: cover;
+    height: 110vh;
+    width: 50%;
+    margin-right: calc(10% + 8rem);
+    margin-left: auto;
+  }
+  
+  .ap-s2-text {
+    color: var(--red);
+    display: flex;
+    /* flex-direction: column; */
+     flex-wrap: wrap-reverse; 
+    align-items: flex-end;
+    justify-content: space-between;
+    border: 1px solid pink;
+    position: absolute;
+    top: 29vh;
+    left: 10%;
+    right: 10%; 
+  }
+  
+  
+  .ap-s2-text-body {
+    text-align: left;
+    border: 1px solid orange;
+    
+    padding-top: .6rem;
+  }
+  
+  
+  .ap-s2-heading {
+    text-align: right; 
+    border: 1px solid lightgreen;
+    align-self: flex-end;
+  }
+  
+  .ap-s2-heading h2{
+     margin-right: -2.2rem;
+     padding-bottom: .5rem; 
+  }
+  
+  .ap-s2-text hr {
+    border: 2px solid var(--red);
+    
+  }
+  

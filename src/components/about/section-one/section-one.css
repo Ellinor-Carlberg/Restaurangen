@@ -1,0 +1,63 @@
+.ap-s1-background {
+    background-color: var(--grey);
+    height: 115vh;
+  }
+  
+  .ap-s1-relative {
+    border: 1px solid red;
+    width: 80%;
+    margin: auto;
+    top: 12rem;
+    position: relative;
+    color: var(--white);
+   text-align: center;
+    display: flex; 
+}
+  
+  
+  .ap-s1-relative img {
+    display: block;
+    object-fit: cover;
+    height: 70vh;
+    width: 100%;
+  }
+
+  
+  .ap-s1-heading{
+    color: var(--white);
+    border: 1px solid pink;
+    position: absolute;
+    top: -4.5rem;
+    width: 100%; 
+    left: 50%;
+    transform: translate(-50%);
+  }
+
+
+  .ap-s1-text-body {
+    color: var(--white);
+    border: 1px solid orange;
+    position: absolute;
+    top: 5rem;
+    width: 100%; 
+    left: 50%;
+    transform: translate(-50%);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+  }
+
+
+  .ap-s1-text-body div:nth-child(1){
+    border: 1px solid darkgreen;
+      } 
+     
+.ap-s1-text-body div:nth-child(2){
+border: 1px solid darkgreen;
+  } 
+
+
+.ap-s1-text-body hr {
+  border: 2px solid var(--white);
+  width: 14rem;
+}
