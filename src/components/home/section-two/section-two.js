@@ -5,10 +5,10 @@ import mountain from "../../../media/mountain.jpg";
 function SectionTwo() {
   return (
      
-    <div class="s2-relative">
+    <div class="hp-s2-relative">
     <img src={mountain} alt="mountain"></img>
-    <div class="s2-text">
-      <div class="s2-text-body">
+    <div class="hp-s2-text">
+      <div class="hp-s2-text-body">
         <h3>
           a little bit about us<hr></hr>
         </h3>
@@ -25,7 +25,7 @@ function SectionTwo() {
           not have to be more difficult than that. Warm welcome!
         </h5>
       </div>
-      <div class="s2-heading">
+      <div class="hp-s2-heading">
         <h2>hello</h2>
       </div>
     </div>

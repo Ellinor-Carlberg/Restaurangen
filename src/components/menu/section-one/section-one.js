@@ -7,11 +7,15 @@ function SectionOne() {
     <div class="mp-s1-background">
       <div class="mp-s1-relative">
         <img src={mountain} alt="mountain"></img>
-        <div class="mp-s1-text">
-          <h1>our menu</h1>
-          <h3>
-            asian fusion restaurant<hr></hr>
+        <h1 class="mp-s1-heading">our menu</h1>
+        <div class="mp-s1-text-body">
+        <div><h4>desserts/food/ramen/desserts</h4>
+        <h4>desserts/food/ramen/desserts</h4>
+        </div>
+          <div><h3>
+            asian fusion<hr></hr>
           </h3>
+          </div>
         </div>
       </div>
     </div>

@@ -1,45 +1,65 @@
 .mp-s1-background {
     background-color: var(--white);
-    height: 100vh;
+    height: 115vh;
   }
   
   .mp-s1-relative {
     border: 1px solid red;
     width: 80%;
     margin: auto;
-    top: 10rem;
+    top: 12rem;
     position: relative;
     color: var(--blue);
-   /*  text-align: center;
-    display: flex; */
+   text-align: center;
+    display: flex; 
 }
   
   
   .mp-s1-relative img {
     display: block;
     object-fit: cover;
-    height: 60vh;
+    height: 70vh;
     width: 100%;
   }
 
   
-  .mp-s1-text {
+  .mp-s1-heading{
     color: var(--blue);
     border: 1px solid pink;
     position: absolute;
-    top: -4rem;
-     width: 100%; 
+    top: -4.5rem;
+    width: 100%; 
     left: 50%;
     transform: translate(-50%);
   }
 
 
+  .mp-s1-text-body {
+    color: var(--blue);
+    border: 1px solid orange;
+    position: absolute;
+    top: 5rem;
+    width: 100%; 
+    left: 50%;
+    transform: translate(-50%);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+  }
 
 
+  .mp-s1-text-body div:nth-child(1){
+    border: 1px solid darkgreen;
+      } 
+     
+.mp-s1-text-body div:nth-child(2){
+border: 1px solid darkgreen;
+  } 
 
-.mp-s1-text hr {
+
+.mp-s1-text-body hr {
   border: 2px solid var(--blue);
-  width: 100%;
+  width: 14rem;
 }
 /* 
 .hp-s1-text div {

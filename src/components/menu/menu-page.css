@@ -1,5 +1,5 @@
 .mp-wrapper {
-    background-color: rgb(255, 251, 228);
+    background-color: var(--pinkWarm);
   /*   display: flex;
     flex-direction: column; */
 }

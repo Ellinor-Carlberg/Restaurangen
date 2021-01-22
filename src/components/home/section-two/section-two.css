@@ -1,4 +1,4 @@
-.s2-relative {
+.hp-s2-relative {
   padding-top: calc(18rem + 30vh);
   border: 1px solid green;
   width: 100%;
@@ -7,7 +7,7 @@
   text-align: center;
 }
 
-.s2-relative img {
+.hp-s2-relative img {
   display: block;
   object-fit: cover;
   height: 110vh;
@@ -16,7 +16,7 @@
   margin-left: auto;
 }
 
-.s2-text {
+.hp-s2-text {
   color: var(--red);
   display: flex;
   /* flex-direction: column; */
@@ -31,7 +31,7 @@
 }
 
 
-.s2-text-body {
+.hp-s2-text-body {
   text-align: left;
   border: 1px solid orange;
   
@@ -39,18 +39,18 @@
 }
 
 
-.s2-heading {
+.hp-s2-heading {
   text-align: right; 
   border: 1px solid lightgreen;
   align-self: flex-end;
 }
 
-.s2-heading h2{
+.hp-s2-heading h2{
    margin-right: -2.2rem;
    padding-bottom: .5rem; 
 }
 
-.s2-text hr {
+.hp-s2-text hr {
   border: 2px solid var(--red);
   
 }
