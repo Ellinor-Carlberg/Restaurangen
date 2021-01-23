@@ -41,7 +41,7 @@
     position: absolute;
     top: 15rem;
     right: 0; 
-     max-width: 30rem; 
+     width: auto; 
     text-align: left;
    /*  display: flex;
     flex-direction: column;
