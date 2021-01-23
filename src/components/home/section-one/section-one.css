@@ -12,7 +12,6 @@
   border: 1px solid red;
 }
 
-
 .hp-s1-text {
   color: var(--yellow);
   position: absolute;
@@ -33,41 +32,39 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  
+
   width: 100%;
-} 
+}
 
 .hp-s1-text h1 {
   letter-spacing: 0;
-  margin-right: -.4rem;
+  margin-right: -0.4rem;
 }
 
-
-
-.hp-s1-text div .m-letter{
+.hp-s1-text div .m-letter {
   margin-left: 2rem;
-} 
+}
 
-.hp-s1-text .miri{
+.hp-s1-text .miri {
   margin-right: -1.5rem;
-} 
+}
 
-.hp-s1-text .h3-wrapper{
+.hp-s1-text .h3-wrapper {
   padding-top: 1rem;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   width: 100%;
-} 
+}
 
-.hp-s1-text .h3-wrapper h3{
+.hp-s1-text .h3-wrapper h3 {
   letter-spacing: 0;
-} 
+}
 
-.hp-s1-text .h3-wrapper .f-letter, .r-letter{
-  margin-left: .8rem;
-} 
-
+.hp-s1-text .h3-wrapper .f-letter,
+.r-letter {
+  margin-left: 0.8rem;
+}
 
 .hp-s1-relative img {
   display: block;
@@ -76,18 +73,16 @@
   width: 100%;
 }
 
-
-
 /* Devices (tablets, less than 70em (px)*/
 @media screen and (max-width: 70em) {
   .hp-s1-text {
     width: 60vw;
   }
-} 
+}
 
 /* Medium devices (tablets, less than 67em (992px)*/
 @media screen and (max-width: 60em) {
   .hp-s1-text {
     width: 70vw;
   }
-} 
+}

@@ -55,7 +55,6 @@ function SectionFiveAndSix() {
       </div>
       <div class="mp-s6-relative">
         <img src={mountain} alt="mountain"></img>
-
         <div class="mp-s6-menu">
           <h3>hello</h3>
           <div class="mp-s6-menu-text-wrapper-border">

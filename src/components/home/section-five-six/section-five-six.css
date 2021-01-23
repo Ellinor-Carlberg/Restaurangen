@@ -1,14 +1,15 @@
-.s5-s6-background {
+.hp-s5-s6-background {
   margin-top: 19rem;
   background-color: var(--pinkWarm);
   height: 230vh;
 }
 
-.s5-relative hr, .s6-relative hr {
+.hp-s5-relative hr,
+.hp-s6-relative hr {
   border: 2px solid var(--blue);
 }
 
-.s5-relative {
+.hp-s5-relative {
   color: var(--blue);
   border: 1px solid pink;
   position: relative;
@@ -16,7 +17,7 @@
   height: 90vh;
 }
 
-.s5-relative img {
+.hp-s5-relative img {
   position: absolute;
   top: -9rem;
   right: 10%;
@@ -26,14 +27,14 @@
   width: 70%;
 }
 
-.s5-relative h2 {
+.hp-s5-relative h2 {
   position: absolute;
   top: -12.25rem;
   left: 50%;
   transform: translate(-50%);
 }
 
-.s5-text-body {
+.hp-s5-text-body {
   border: 1px solid pink;
   position: absolute;
   top: 8rem;
@@ -42,7 +43,7 @@
   text-align: left;
 }
 
-.s6-relative {
+.hp-s6-relative {
   color: var(--blue);
   border: 1px solid pink;
   position: relative;
@@ -50,9 +51,7 @@
   width: 100%;
 }
 
-
-
-.s6-relative img {
+.hp-s6-relative img {
   position: absolute;
   top: 0;
   left: 0;
@@ -62,7 +61,7 @@
   width: 65%;
 }
 
-.s6-relative h2 {
+.hp-s6-relative h2 {
   border: 1px solid pink;
   position: absolute;
   top: -3.25rem;
@@ -70,13 +69,10 @@
   text-align: center;
 }
 
-.s6-text-body {
- 
-border: 1px solid turquoise;
-position: absolute;
-top: 13rem;
-right: calc(3rem + 3vw);
-/* left: 55vw; */
-text-align: left;
-/* width: 55vw; */
+.hp-s6-text-body {
+  border: 1px solid turquoise;
+  position: absolute;
+  top: 13rem;
+  right: calc(3rem + 3vw);
+  text-align: left;
 }

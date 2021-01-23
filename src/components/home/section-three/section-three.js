@@ -4,12 +4,12 @@ import mountain from "../../../media/mountain.jpg";
 
 function SectionThree() {
   return (
-    <div class="s3-relative">
+    <div class="hp-s3-relative">
       <img src={mountain} alt="mountain"></img>
-      <div class="s3-text-heading">
+      <div class="hp-s3-text-heading">
         <h2>visit us</h2>
       </div>
-      <div class="s3-text-body">
+      <div class="hp-s3-text-body">
         <h3>
           call us on 071943670<hr></hr>
         </h3>

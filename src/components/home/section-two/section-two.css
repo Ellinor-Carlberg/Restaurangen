@@ -19,38 +19,34 @@
 .hp-s2-text {
   color: var(--red);
   display: flex;
-  /* flex-direction: column; */
-   flex-wrap: wrap-reverse; 
+  flex-wrap: wrap-reverse;
   align-items: flex-end;
   justify-content: space-between;
   border: 1px solid pink;
   position: absolute;
   top: calc(23rem + 30vh);
   left: 10%;
-  right: 10%; 
+  right: 10%;
 }
-
 
 .hp-s2-text-body {
   text-align: left;
   border: 1px solid orange;
-  
-  padding-top: .6rem;
+
+  padding-top: 0.6rem;
 }
 
-
 .hp-s2-heading {
-  text-align: right; 
+  text-align: right;
   border: 1px solid lightgreen;
   align-self: flex-end;
 }
 
-.hp-s2-heading h2{
-   margin-right: -2.2rem;
-   padding-bottom: .5rem; 
+.hp-s2-heading h2 {
+  margin-right: -2.2rem;
+  padding-bottom: 0.5rem;
 }
 
 .hp-s2-text hr {
   border: 2px solid var(--red);
-  
 }

@@ -4,11 +4,11 @@ import mountain from "../../../media/mountain.jpg";
 
 function SectionFiveAndSix() {
   return (
-    <div class="s5-s6-background">
-      <div class="s5-relative">
+    <div class="hp-s5-s6-background">
+      <div class="hp-s5-relative">
         <img src={mountain} alt="mountain"></img>
-        <h2 class="s5-text-heading">MENU</h2>
-        <div class="s5-text-body">
+        <h2 class="hp-s5-text-heading">MENU</h2>
+        <div class="hp-s5-text-body">
           <h3>
             call us on 071943670<hr></hr>
           </h3>
@@ -19,11 +19,11 @@ function SectionFiveAndSix() {
           </h5>
         </div>
       </div>
-      <div class="s6-relative">
+      <div class="hp-s6-relative">
         <img src={mountain} alt="mountain"></img>
-        <h2 class="s6-text-heading">LATEST NEWS</h2>
+        <h2 class="hp-s6-text-heading">LATEST NEWS</h2>
 
-        <div class="s6-text-body">
+        <div class="hp-s6-text-body">
           <h3>
             call us on 071943670<hr></hr>
           </h3>

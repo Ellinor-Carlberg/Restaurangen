@@ -1,7 +1,5 @@
-.s4-relative {
-
-color: var(--red);
-  
+.hp-s4-relative {
+  color: var(--red);
 
   padding-top: 10rem;
   border: 1px solid purple;
@@ -13,7 +11,7 @@ color: var(--red);
   text-align: center;
 }
 
-.s4-relative img {
+.hp-s4-relative img {
   display: block;
   object-fit: cover;
   height: 60%;
@@ -22,7 +20,7 @@ color: var(--red);
   position: absolute;
 }
 
-.s4-text {
+.hp-s4-text {
   border: 1px solid pink;
   position: absolute;
   top: 10rem;
@@ -31,9 +29,6 @@ color: var(--red);
   text-align: left;
 }
 
-
-
-.s4-text-body hr {
+.hp-s4-text-body hr {
   border: 2px solid var(--red);
-  
 }

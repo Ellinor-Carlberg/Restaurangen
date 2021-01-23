@@ -1,67 +1,53 @@
 .ap-s1-background {
-    background-color: var(--grey);
-    height: 115vh;
-  }
-  
-  .ap-s1-relative {
-    border: 1px solid red;
-    width: 100%;
-    margin: auto;
-    top: 12rem;
-    position: relative;
-    color: var(--white);
-   text-align: center;
-    display: flex; 
+  background-color: var(--grey);
+  height: 115vh;
 }
-  
-  
-  .ap-s1-relative img {
-    display: block;
-    object-fit: cover;
-    height: 70vh;
-    width: 80%;
-    margin:auto;
-  }
 
-  
-  .ap-s1-heading{
-    color: var(--white);
-    border: 1px solid pink;
-    position: absolute;
-    top: -4.5rem;
-    width: 100%; 
-    left: 50%;
-    transform: translate(-50%);
-  }
+.ap-s1-relative {
+  border: 1px solid red;
+  width: 100%;
+  margin: auto;
+  top: 12rem;
+  position: relative;
+  color: var(--white);
+  text-align: center;
+  display: flex;
+}
 
+.ap-s1-relative img {
+  display: block;
+  object-fit: cover;
+  height: 70vh;
+  width: 80%;
+  margin: auto;
+}
 
-  .ap-s1-text-body {
-    color: var(--white);
-    border: 1px solid orange;
-    position: absolute;
-    top: 15rem;
-    right: 0; 
-     width: auto; 
-    text-align: left;
-   /*  display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: flex-end;  */ 
-   /*  border: 1px solid turquoise;
-    position: absolute;
-    top: 26rem;
-    right: calc(3rem + 3vw);
-    /* left: 55vw; */
-  
-  }
+.ap-s1-heading {
+  color: var(--white);
+  border: 1px solid pink;
+  position: absolute;
+  top: -4.5rem;
+  width: 100%;
+  left: 50%;
+  transform: translate(-50%);
+}
 
-     
-.ap-s1-text-body h2, .ap-s1-text-body h3{
-border: 1px solid darkgreen;
-padding-right: calc(3rem + 3vw); 
-  } 
+.ap-s1-text-body {
+  color: var(--white);
+  border: 1px solid orange;
+  position: absolute;
+  top: 15rem;
+  right: 0;
+  width: auto;
+  text-align: left;
+}
 
- 
+.ap-s1-text-body h2,
+.ap-s1-text-body h3 {
+  border: 1px solid darkgreen;
+  padding-right: calc(3rem + 3vw);
+}
+
 .ap-s1-text-body hr {
   border: 2px solid var(--white);
   width: 100%;

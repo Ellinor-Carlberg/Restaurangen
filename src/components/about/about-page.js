@@ -6,7 +6,7 @@ import SectionThree from "./section-three/section-three.js";
 
 function AboutPage() {
   return (
-    <div>
+    <div class="ap-wrapper">
     <SectionOne />
     <SectionTwo />
     <SectionThree />

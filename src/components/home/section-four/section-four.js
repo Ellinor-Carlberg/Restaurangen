@@ -4,13 +4,13 @@ import mountain from "../../../media/mountain.jpg";
 
 function SectionFour() {
   return (
-    <div class="s4-relative">
+    <div class="hp-s4-relative">
       <img src={mountain} alt="mountain"></img>
-      <div class="s4-text">
-        <div class="s4-text-heading">
+      <div class="hp-s4-text">
+        <div class="hp-s4-text-heading">
           <h2>book a table</h2>
         </div>
-        <div class="s4-text-body">
+        <div class="hp-s4-text-body">
           <h3>
             call us on 071943670<hr></hr>
           </h3>
