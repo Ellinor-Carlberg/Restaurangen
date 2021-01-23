@@ -5,7 +5,7 @@
   
   .ap-s1-relative {
     border: 1px solid red;
-    width: 80%;
+    width: 100%;
     margin: auto;
     top: 12rem;
     position: relative;
@@ -19,7 +19,8 @@
     display: block;
     object-fit: cover;
     height: 70vh;
-    width: 100%;
+    width: 80%;
+    margin:auto;
   }
 
   
@@ -38,26 +39,30 @@
     color: var(--white);
     border: 1px solid orange;
     position: absolute;
-    top: 5rem;
-    width: 100%; 
-    left: 50%;
-    transform: translate(-50%);
-    display: flex;
-    justify-content: space-evenly;
-    align-items: flex-start;
+    top: 15rem;
+    right: 0; 
+     max-width: 30rem; 
+    text-align: left;
+   /*  display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;  */ 
+   /*  border: 1px solid turquoise;
+    position: absolute;
+    top: 26rem;
+    right: calc(3rem + 3vw);
+    /* left: 55vw; */
+  
   }
 
-
-  .ap-s1-text-body div:nth-child(1){
-    border: 1px solid darkgreen;
-      } 
      
-.ap-s1-text-body div:nth-child(2){
+.ap-s1-text-body h2, .ap-s1-text-body h3{
 border: 1px solid darkgreen;
+padding-right: calc(3rem + 3vw); 
   } 
 
-
+ 
 .ap-s1-text-body hr {
   border: 2px solid var(--white);
-  width: 14rem;
+  width: 100%;
 }
