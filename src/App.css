@@ -131,8 +131,8 @@ button {
   /* margin: 0.5rem 0; */
   display: block;
  color: var(--beige);
- padding: 1rem;
- width: 14rem;
+ padding: 1rem 2rem;
+ /* width: 14rem; */
  margin: 1rem 0 3rem 0;
   
 }

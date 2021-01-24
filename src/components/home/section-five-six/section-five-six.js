@@ -10,13 +10,14 @@ function SectionFiveAndSix() {
         <h2 class="hp-s5-text-heading">MENU</h2>
         <div class="hp-s5-text-body">
           <h3>
-            call us on 071943670<hr></hr>
+            But what about the food and drinks?<hr></hr>
           </h3>
           <h5>
-            "For the people, food is heaven. ” This is as true in tropical
-            chili-loving Sichuan as among the hunters on the snow-capped peaks
-            of the Himalayas.
+            There is kimchi, dumplings, buns, ramen, sweet desserts and all kind
+            of yummy things! Our own unique Cocktails and other liquids to
+            quench your thirst.
           </h5>
+          <button>Check out our menu</button>
         </div>
       </div>
       <div class="hp-s6-relative">
@@ -25,13 +26,14 @@ function SectionFiveAndSix() {
 
         <div class="hp-s6-text-body">
           <h3>
-            call us on 071943670<hr></hr>
+            there is always something happening at miri<hr></hr>
           </h3>
           <h5>
-            "For the people, food is heaven. ” This is as true in tropical
-            chili-loving Sichuan as among the hunters on the snow-capped peaks
-            of the Himalayas.
+            We are a joyfull and living restaurant and always up for something
+            fun! Check out our news page for information about events at the
+            restaurant and the latest uppdates.
           </h5>
+          <button>I want to know whats happening</button>
         </div>
       </div>
     </div>
@@ -39,3 +41,17 @@ function SectionFiveAndSix() {
 }
 
 export default SectionFiveAndSix;
+
+
+
+      /*     <h3 class="h3-latest-post">
+            latest post<hr></hr>
+          </h3>
+          <h4>Here should be the headline for the latest post</h4>
+          <h5>
+            Here should be the intro text for the latest post. Here should be
+            the intro text for the latest post. Here should be the intro text
+            for the latest post. Here should be the intro text for the latest
+            post.
+          </h5>
+          <button>Read more...</button> */

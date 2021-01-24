@@ -40,7 +40,7 @@
   padding-bottom: .5rem;
 } 
 
-.icon {
+.hp-s3-text-body .icon {
   fill: var(--red);
 }
 

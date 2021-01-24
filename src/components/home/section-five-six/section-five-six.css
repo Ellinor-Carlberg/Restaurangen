@@ -76,3 +76,14 @@
   right: calc(3rem + 3vw);
   text-align: left;
 }
+
+.hp-s5-text-body button, .hp-s6-text-body button{
+  background-color: var(--blue);
+  color: var(--pinkWarm);
+  white-space: nowrap;
+
+}
+
+.h3-latest-post {
+  margin-top: 3rem;
+}

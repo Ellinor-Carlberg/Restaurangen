@@ -10,12 +10,12 @@ function SectionOne() {
         <h1 class="mp-s1-heading">our menu</h1>
         <div class="mp-s1-text-body">
           <div>
-            <h4>desserts/food/ramen/desserts</h4>
-            <h4>desserts/food/ramen/desserts</h4>
+            <h4>small dishes/ramen/desserts
+            <br></br>cocktails & other drinks</h4>
           </div>
           <div>
             <h3>
-              asian fusion<hr></hr>
+              yummy Asian fushion<hr></hr>
             </h3>
           </div>
         </div>
