@@ -35,3 +35,24 @@
 .hp-s3-text-body hr {
   border: 2px solid var(--red);
 }
+
+.hp-s3-text-body h4 {
+  padding-bottom: .5rem;
+} 
+
+.icon {
+  fill: var(--red);
+}
+
+.email {
+  display: inline-block;
+  width: 1.5rem;
+  height: 1.5rem;
+  padding: 0 .5rem 0 0;
+} 
+
+.h5-email {
+  display: flex;
+  align-items: center;
+  
+}

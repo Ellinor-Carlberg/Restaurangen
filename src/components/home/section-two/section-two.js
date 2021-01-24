@@ -20,8 +20,9 @@ function SectionTwo() {
             freshly and simply in a warm and playful environment. The basis of
             our kitchen is our interpretation of street food from the asian
             cusine. We are open for all, days and nights. Come as you are.<br></br>
-            <strong>Warm welcome!</strong>
+            
           </h5>
+          <h3>Warm welcome!</h3>
         </div>
         <div class="hp-s2-heading">
           <h2>who <br></br>we are</h2>

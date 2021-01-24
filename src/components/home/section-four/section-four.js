@@ -23,7 +23,7 @@ function SectionFour() {
             message and someone will get back to you as soon as possible. Call
             us on:
           </h5>
-          <h4>+467 19 43 670</h4>
+          <h4 class="h4-border">+467 19 43 670</h4>
         </div>
       </div>
     </div>
