@@ -49,8 +49,15 @@
 }
 
 .footer-text h3 {
-  padding-top: 1rem;
+  padding: 1rem 0 0 0;
+  margin: 0;
 }
+
+.footer-text h4 {
+  padding: 0;
+  margin: 0;
+}
+
 
 .footer-social {
   border: 1px solid pink;
@@ -83,13 +90,14 @@
 
 .footer .row {
   display: flex;
-  align-items: center;
+  align-items: flex-end;
   justify-content: center;
 }
 
 .footer .logo {
   fill: var(--blue);
   height: 1rem;
+  padding-bottom: .2rem;
 }
 
 .footer-relative .logo-wrapper hr {
