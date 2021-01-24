@@ -108,6 +108,21 @@ h5 {
   max-width: 25rem;
 }
 
+button {
+  background-color: var(--red);
+  border: none;
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  letter-spacing: .15rem;
+  font-weight: 600;
+  /* margin: 0.5rem 0; */
+  display: block;
+ color: var(--beige);
+ padding: 1rem;
+ width: 14rem;
+ margin-top: 1rem;
+  
+}
 /* 
 
 // Large devices (desktops, less than 75em (1200px))

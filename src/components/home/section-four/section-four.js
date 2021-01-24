@@ -12,13 +12,18 @@ function SectionFour() {
         </div>
         <div class="hp-s4-text-body">
           <h3>
-            call us on 071943670<hr></hr>
+            There is two ways<hr></hr>
           </h3>
           <h5>
-            "For the people, food is heaven. ” This is as true in tropical
-            chili-loving Sichuan as among the hunters on the snow-capped peaks
-            of the Himalayas.
+            Make your dinner reservation online by clicking the button below.{" "}
           </h5>
+          <button>Book table</button>
+          <h5>
+            Or give us a call! If you call outside business hours, leave a
+            message and someone will get back to you as soon as possible. Call
+            us on:
+          </h5>
+          <h4>+467 19 43 670</h4>
         </div>
       </div>
     </div>

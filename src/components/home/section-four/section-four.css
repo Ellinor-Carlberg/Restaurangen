@@ -27,8 +27,21 @@
   left: 10%;
   width: 80%;
   text-align: left;
+  text-justify: auto;
+}
+
+.hp-s4-text-body h5:nth-child(1){
+  text-align: left;
+  text-justify: auto;
 }
 
 .hp-s4-text-body hr {
   border: 2px solid var(--red);
+}
+
+.hp-s4-text-body h4 {
+  border: 4px solid var(--red);
+  text-align: center;
+  padding: 1rem;
+  width: 14rem;
 }
