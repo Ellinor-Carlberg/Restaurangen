@@ -56,6 +56,7 @@
 .mp-s5-menu-text {
   display: flex;
   border: 1px solid turquoise;
+  text-align: left;
 }
 
 .mp-s5-menu-text div {
@@ -126,6 +127,7 @@
 .mp-s6-menu-text {
   display: flex;
   border: 1px solid turquoise;
+  text-align: left;
 }
 
 .mp-s6-menu-text div {
@@ -135,4 +137,16 @@
 
 .mp-s6-text hr {
   border: 2px solid var(--red);
+}
+
+.mp-s5-menu h4, .mp-s6-menu h4 {
+  display: inline-block;
+  margin: 0;
+  padding-bottom: 1rem;
+  line-height: 1.5rem;
+}
+
+.mp-s5-menu h5, .mp-s6-menu h5 {
+  text-justify: auto;
+  text-align: left;
 }
