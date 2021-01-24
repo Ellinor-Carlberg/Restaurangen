@@ -1,5 +1,6 @@
 import React from "react";
 import "./section-three.css";
+import { ReactComponent as Email } from "../../../media/svg/009-email.svg";
 import mountain from "../../../media/mountain.jpg";
 
 function SectionThree() {
@@ -12,13 +13,13 @@ function SectionThree() {
         </div>
         <div class="ap-s3-text-body">
           <h3>
-            call us on 071943670<hr></hr>
+            and have fun!<hr></hr>
           </h3>
           <h5>
-            "For the people, food is heaven. ” This is as true in tropical
-            chili-loving Sichuan as among the hunters on the snow-capped peaks
-            of the Himalayas.
-          </h5>
+          We are continuously looking for dedicated and inspiring people to be part of our team. Send us a email</h5>
+          <div class="h5-email"><Email class="icon email" />
+          <h5>work@miri.com</h5> 
+          </div>
         </div>
       </div>
     </div>

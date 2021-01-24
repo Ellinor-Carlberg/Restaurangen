@@ -33,7 +33,7 @@ function SectionThree() {
 
         <h4>GET IN TOUCH</h4>
         <h5>
-          Just drop by, or if you want to book a table se information below.{" "}
+          Just drop by, or if you want to book a table se information below.
           <br></br>
           If there is something else you want to contat us about you can always
           call us on +467 19 43 670. <br></br>Or send us an email </h5>
