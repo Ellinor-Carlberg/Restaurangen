@@ -17,7 +17,7 @@ function SectionThree() {
           </h3>
           <h5>
           We are continuously looking for dedicated and inspiring people to be part of our team. Send us a email</h5>
-          <div class="h5-email"><Email class="icon email" />
+          <div class="h5-email"><a href="mailto:work@miri.com"><Email class="icon email" /></a>
           <h5>work@miri.com</h5> 
           </div>
         </div>

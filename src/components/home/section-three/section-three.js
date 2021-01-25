@@ -37,15 +37,16 @@ function SectionThree() {
           <br></br>
           If there is something else you want to contat us about you can always
           call us on +467 19 43 670. <br></br>Or send us an email </h5>
-          <div class="h5-email"><Email class="icon email" />
+         
+          <div class="h5-email">
+          <a href="mailto:contact@miri.com"><Email class="icon email" /></a>
           <h5>contact@miri.com</h5>
         </div>
         <h4>social media</h4>
         <h5>Check us out and follow!</h5>
-
-        <Facebook class="icon" />
-        <Instagram class="icon" />
-        <TikTok class="icon" />
+        <a href="https://www.facebook.com/" target="_blank"><Facebook class="icon" /></a> 
+        <a href="https://www.instagram.com/" target="_blank"><Instagram class="icon" /></a> 
+        <a href="https://www.tiktok.com/" target="_blank"><TikTok class="icon" /></a> 
       </div>
     </div>
   );
