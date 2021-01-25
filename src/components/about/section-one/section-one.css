@@ -36,19 +36,34 @@
   color: var(--white);
   border: 1px solid orange;
   position: absolute;
-  top: 15rem;
+  top: 10rem;
   right: 0;
-  width: auto;
-  text-align: left;
+ width: 30rem; 
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
 }
 
-.ap-s1-text-body h2,
+
+.ap-s1-text-body h2 {
+  border: 1px solid darkgreen;
+  padding-right: 12vw; 
+  margin-right: -1.5rem;
+}
+
+
 .ap-s1-text-body h3 {
   border: 1px solid darkgreen;
-  padding-right: calc(3rem + 3vw);
+   margin-right: 12vw; 
+   
 }
+
+
+
 
 .ap-s1-text-body hr {
   border: 2px solid var(--white);
-  width: 100%;
+  width: 30rem;
+  right: 0;
 }

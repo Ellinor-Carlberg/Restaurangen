@@ -33,16 +33,22 @@
 
 
 
-.email {
+.h5-email  .email {
   display: inline-block;
   width: 1.5rem;
   height: 1.5rem;
-  padding: 0 .5rem 0 0;
+  padding: .5rem .5rem 0 0;
   fill: var(--red);
 } 
 
 .h5-email {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   
 }
+
+
+
+.h5-email h5{
+  padding-top: .3rem;
+} 

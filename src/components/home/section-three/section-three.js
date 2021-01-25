@@ -4,6 +4,7 @@ import { ReactComponent as Facebook } from "../../../media/svg/001-facebook.svg"
 import { ReactComponent as Instagram } from "../../../media/svg/002-instagram.svg";
 import { ReactComponent as TikTok } from "../../../media/svg/004-tiktok.svg";
 import { ReactComponent as Email } from "../../../media/svg/009-email.svg";
+import { ReactComponent as Arrow } from "../../../media/svg/arrow.svg";
 import mountain from "../../../media/mountain.jpg";
 
 function SectionThree() {
@@ -23,7 +24,7 @@ function SectionThree() {
           Sankt Eriksgatan 70<br></br>
           113 20 Stockholm<br></br>
         </h5>
-        <h6>Click on the map to get directions</h6>
+        <div class="get-directions"><Arrow class="icon" /><h6>Click on the map to get directions</h6></div>
 
         <h4>OPENING HOURS</h4>
         <h5>
@@ -44,6 +45,7 @@ function SectionThree() {
         </div>
         <h4>social media</h4>
         <h5>Check us out and follow!</h5>
+        
         <a href="https://www.facebook.com/" target="_blank"><Facebook class="icon" /></a> 
         <a href="https://www.instagram.com/" target="_blank"><Instagram class="icon" /></a> 
         <a href="https://www.tiktok.com/" target="_blank"><TikTok class="icon" /></a> 
