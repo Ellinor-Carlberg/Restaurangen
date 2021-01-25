@@ -71,6 +71,7 @@
   object-fit: cover;
   height: 140vh;
   width: 100%;
+  top: 0;
 }
 
 /* Devices (tablets, less than 70em (px)*/

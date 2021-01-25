@@ -5,7 +5,7 @@ import { ReactComponent as Instagram } from "../../media/svg/002-instagram.svg";
 import { ReactComponent as TikTok } from "../../media/svg/004-tiktok.svg";
 import { ReactComponent as Logo } from "../../media/svg/miri-logo.svg";
 import { ReactComponent as Email } from "../../media/svg/009-email.svg";
-import mountain from "../../media/mountain.jpg";
+import mountain from "../../media/images/green.jpg";
 
 function Footer() {
   return (

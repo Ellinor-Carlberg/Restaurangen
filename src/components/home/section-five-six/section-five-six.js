@@ -1,12 +1,13 @@
 import React from "react";
 import "./section-five-six.css";
-import mountain from "../../../media/mountain.jpg";
+import mountain from "../../../media/images/orangechair.jpg";
+import mountain1 from "../../../media/images/orange2.jpg";
 
 function SectionFiveAndSix() {
   return (
     <div class="hp-s5-s6-background">
       <div class="hp-s5-relative">
-        <img src={mountain} alt="mountain"></img>
+        <img src={mountain1} alt="mountain"></img>
         <h2 class="hp-s5-text-heading">MENU</h2>
         <div class="hp-s5-text-body">
           <h3>

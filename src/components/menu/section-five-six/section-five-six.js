@@ -1,6 +1,7 @@
 import React from "react";
 import "./section-five-six.css";
-import mountain from "../../../media/mountain.jpg";
+import mountain from "../../../media/images/citrus.jpg";
+import cocktail from "../../../media/images/beige22.jpg";
 
 function SectionFiveAndSix() {
   return (
@@ -9,7 +10,7 @@ function SectionFiveAndSix() {
         <div class="mp-s6-heading-small">
           <h2 class="h2-small">Drinks</h2>
         </div>
-        <img src={mountain} alt="mountain"></img>
+        <img src={cocktail} alt="mountain"></img>
         <div class="mp-s5-menu">
           <h3>All can be made alcohol free</h3>
           <div class="mp-s5-menu-text-wrapper-border">

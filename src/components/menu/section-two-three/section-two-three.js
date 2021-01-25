@@ -1,6 +1,7 @@
 import React from "react";
 import "./section-two-three.css";
-import mountain from "../../../media/mountain.jpg";
+import mountain2 from "../../../media/images/grey.jpg";
+import mountain from "../../../media/images/whiteGarlic.jpg";
 
 function SectionTwoAndThree() {
   return (
@@ -80,7 +81,7 @@ function SectionTwoAndThree() {
         </div>
       </div>
       <div class="mp-s3-relative">
-        <img src={mountain} alt="mountain"></img>
+        <img src={mountain2} alt="mountain"></img>
         <div class="mp-s3-menu">
           <h3>Japanese noodle soup</h3>
           <div class="mp-s3-menu-text-wrapper-border">

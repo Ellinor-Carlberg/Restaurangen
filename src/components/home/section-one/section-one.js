@@ -1,6 +1,6 @@
 import React from "react";
 import "./section-one.css";
-import mountain from "../../../media/mountain.jpg";
+import mountain from "../../../media/images/orange3.jpg";
 
 function SectionOne() {
   return (
