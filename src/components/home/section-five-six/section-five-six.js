@@ -1,7 +1,7 @@
 import React from "react";
 import "./section-five-six.css";
-import mountain from "../../../media/images/orangechair.jpg";
-import mountain1 from "../../../media/images/orange2.jpg";
+import mountain from "../../../media/images/chairs.jpg";
+import mountain1 from "../../../media/images/dumplings8.jpg";
 
 function SectionFiveAndSix() {
   return (

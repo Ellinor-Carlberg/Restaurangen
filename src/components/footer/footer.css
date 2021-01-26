@@ -1,10 +1,10 @@
 .footer {
-  background-color: beige;
+  background-color: var(--beige);
   height: 73rem;
 }
 
 .footer-relative {
-  color: var(--blue);
+  color: var(--blueDark);
   border: 1px solid red;
   width: 35rem;
   margin: auto;
@@ -14,7 +14,7 @@
 }
 
 .footer-relative hr {
-  border: 2px solid var(--blue);
+  border: 2px solid var(--blueDark);
   width: 99%;
 }
 
@@ -24,6 +24,7 @@
   height: 38rem;
   width: 29rem;
   margin: auto;
+  opacity: .8;
 }
 
 .footer h2 {
@@ -68,12 +69,12 @@
 }
 
 .icon {
-  fill: var(--blue);
+  fill: var(--blueDark);
   left: 0; 
 }
 
 .footer .logo-wrapper {
-  fill: var(--blue);
+  fill: var(--blueDark);
   width: 70%;
   height: 1rem;
   position: absolute;
@@ -95,20 +96,20 @@
 }
 
 .footer .logo {
-  fill: var(--blue);
+  fill: var(--blueDark);
   height: 1rem;
   padding-bottom: .2rem;
 }
 
 .footer-relative .logo-wrapper hr {
-  border: 2px solid var(--blue);
+  border: 2px solid var(--blueDark);
   width: 100%;
 }
 
 
 
 .footer .email {
-  fill: var(--blue);
+  fill: var(--blueDark);
   display: inline-block;
   width: 1.5rem;
   height: 1.5rem;

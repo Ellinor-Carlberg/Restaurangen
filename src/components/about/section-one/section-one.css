@@ -1,5 +1,5 @@
 .ap-s1-background {
-  background-color: var(--grey);
+  background-color: var(--blueLight);
   height: 115vh;
 }
 
@@ -9,7 +9,7 @@
   margin: auto;
   top: 12rem;
   position: relative;
-  color: var(--white);
+  color: var(--brownDark);
   text-align: center;
   display: flex;
 }
@@ -23,7 +23,7 @@
 }
 
 .ap-s1-heading {
-  color: var(--white);
+  color: var(--brownDark);
   border: 1px solid pink;
   position: absolute;
   top: -4.5rem;
@@ -33,7 +33,7 @@
 }
 
 .ap-s1-text-body {
-  color: var(--white);
+  color: var(--brownDark);
   border: 1px solid orange;
   position: absolute;
   top: 10rem;
