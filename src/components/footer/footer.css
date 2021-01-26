@@ -43,6 +43,7 @@
   width: 80%;
   left: 50%;
   transform: translate(-50%);
+  text-align: center;
 }
 
 .footer-text .h4-padding {
@@ -52,6 +53,7 @@
 .footer-text h3 {
   padding: 1rem 0 0 0;
   margin: 0;
+  width: 100%;
 }
 
 .footer-relative h4 {
@@ -128,3 +130,50 @@
   padding-top: .2rem;
 
 }
+
+@media (max-width: 48em) { 
+ 
+.footer-relative {
+  width: 25rem;
+  margin: auto;
+  
+}
+
+.footer-text h3 {
+  width: 20rem;
+  border: 1px solid green;
+  
+  padding: 1rem 0 0 0;
+  margin: 0;
+}
+
+
+.footer-relative hr {
+  border: 2px solid var(--blueDark);
+  width: 99%;
+}
+
+.footer-relative img {
+  height: 30rem;
+  width: 20rem;
+  margin: auto;
+  opacity: .8;
+}
+
+.footer h2 {
+  top: -2.8rem;
+  margin-left: 0.7rem;
+}
+
+/*   
+.footer-relative img {
+  display: block;
+  object-fit: cover;
+  height: 38rem;
+  width: 2rem;
+  margin: auto;
+  opacity: .8;
+}
+ */
+   }
+  

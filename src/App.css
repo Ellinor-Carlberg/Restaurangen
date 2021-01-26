@@ -52,10 +52,6 @@ body {
   flex-shrink: 0;
 }
 
-hr {
-  margin: 1.5rem 0 3rem 0;
-  width: 100%;
-}
 
 h1 {
   font-size: 6.5rem;
@@ -125,6 +121,18 @@ h5 {
   margin: 0;
 }
 
+h6 {
+  font-size: 1rem;
+  font-weight: 400;
+  margin: 1rem 0;
+}
+
+
+hr {
+  margin: 1.5rem 0 3rem 0;
+  width: 100%;
+}
+
 button {
   background-color: var(--red);
   border: none;
@@ -172,12 +180,6 @@ button a:active {
 
 
 
-h6 {
-  font-size: 1rem;
-  font-weight: 400;
-  margin: 1rem 0;
-}
-
 .icon {
   width: 2rem;
   height: 2rem;
@@ -189,12 +191,83 @@ h6 {
 @media (max-width: 48em) { 
  
 h1 {
-  font-size: 4rem;
-  letter-spacing: 1.5rem;
+  font-size: 4.5rem;
+  letter-spacing: 1.2rem;
   line-height: 5rem;
 }
+ /*  font-size: 6.5rem;
+  letter-spacing: 2.3rem;
+  line-height: 9rem;
+ */
 
- }
+h2 {
+  font-size: 4rem;
+  letter-spacing: 1.2rem;
+}
+
+.h2-small {
+  font-size: 3rem;
+  letter-spacing: .8rem;
+  
+}
+/* 
+h3 {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  letter-spacing: 0.3rem;
+  font-weight: 600;
+  margin: 0.5rem 0;
+  width: 30rem;
+}
+
+h4 {
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.15rem;
+  font-weight: 600;
+  margin: 3rem 0 0 0;
+}
+
+.h4-border {
+  border: 4px solid var(--red);
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.15rem;
+  font-weight: 600;
+  margin: 1rem 0 0 0;
+  text-align: center;
+  padding: 1rem;
+  width: 100%;
+}
+
+h5 {
+  font-size: 1.2rem;
+  letter-spacing: 0.1rem;
+  font-family: nunito, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  text-align: justify;
+  text-justify: inter-word;
+  line-height: 1.7rem;
+  max-width: 25rem;
+  margin: 0;
+}
+
+
+h6 {
+  font-size: 1rem;
+  font-weight: 400;
+  margin: 1rem 0;
+}
+
+
+hr {
+  margin: 1.5rem 0 3rem 0;
+  width: 100%;
+}
+
+ */
+}
 
 
 /* 
