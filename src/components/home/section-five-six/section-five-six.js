@@ -18,7 +18,7 @@ function SectionFiveAndSix() {
             of yummy things! Our own unique Cocktails and other liquids to
             quench your thirst.
           </h5>
-          <button>Check out our menu</button>
+          <button>Check our menu</button>
         </div>
       </div>
       <div class="hp-s6-relative">
