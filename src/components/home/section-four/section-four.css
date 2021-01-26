@@ -75,6 +75,22 @@
   .hp-s4-relative {
     height: 45rem;
   }}
+
+
+/* Medium devices (tablets, less than 62em (992px)) */
+@media (max-width: 36em) { 
+
+  .hp-s4-text {
+    left: 1rem;
+  }
+  .hp-s4-text-body div:nth-child(1){
+    
+    margin-right: 0;
+  }
+
+}
+
+  
 /* 
   .hp-s3-relative {
     height: 72rem;

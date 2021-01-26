@@ -187,6 +187,11 @@ button a:active {
 }
 
 
+/*********
+ // Small devices (tablets, landscape phones, less than 48em (768px ) )
+*/
+
+
 
 @media (max-width: 48em) { 
  
@@ -210,6 +215,7 @@ h2 {
   letter-spacing: .8rem;
   
 }
+
 /* 
 h3 {
   font-size: 1.5rem;
@@ -278,7 +284,7 @@ hr {
 // Medium devices (tablets, less than 62em (992px))
 @media (max-width: 991.98px) { ... }
 
-// Small devices (landscape phones, less than 48em (768px ) )
+// Small devices (tablets, landscape phones, less than 48em (768px ) )
 @media (max-width: 767.98px) { ... }
 
 // Extra small devices (phones, less than 36em (576px))

@@ -94,6 +94,16 @@ padding-bottom: .1rem;
 /* Medium devices (tablets, less than 62em (992px)) */
 @media (max-width: 62em) { 
 
+
+
+.hp-s3-text-body {
+  border: 1px solid turquoise;
+  position: absolute;
+  top: 26rem;
+  
+
+  text-align: left;
+}
   .hp-s3-relative {
     height: 72rem;
   }
@@ -112,6 +122,12 @@ padding-bottom: .1rem;
   width: 30rem;
   height: 10rem;
 } }
+
+
+@media (max-width: 36em) { 
+  .hp-s3-text-body {
+    right: 0;
+  }}
   /* .hp-s3-relative img {
     height: 31rem; 
     position: absolute;

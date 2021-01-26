@@ -66,10 +66,9 @@
   .hp-s2-relative img {
     height: 50rem; 
     position: absolute;
-    width: 100%;
     bottom: 0;
     right: 0;
-    left: 10%;
+    width: 90%;
     margin: 0;
   }
 

@@ -34,7 +34,7 @@ function SectionFiveAndSix() {
             fun! Check out our news page for information about events at the
             restaurant and the latest uppdates.
           </h5>
-          <button>I want to know whats happening</button>
+          <button>I want to know</button>
         </div>
       </div>
     </div>
