@@ -42,16 +42,15 @@
   align-items: center;
 }
 
-.mp-s4-menu-text-wrapper-border {
-  border: 5px solid var(--yellowLight);
-  margin-top: 2rem;
-}
+
 
 .mp-s4-menu-text-wrapper {
-  border: 1px solid darkgreen;
+  border: 5px solid var(--yellowLight);
+  margin-top: 2rem;
   padding: 5rem 4rem;
   display: flex;
   flex-direction: column;
+  
 }
 
 .mp-s4-menu-text-wrapper h2 {

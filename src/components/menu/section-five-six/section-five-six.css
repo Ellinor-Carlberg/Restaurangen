@@ -150,3 +150,59 @@
   text-justify: auto;
   text-align: left;
 }
+
+
+
+
+
+@media (max-width: 75em) { 
+
+
+ .mp-s5-relative {
+    height: 100rem;
+    
+  }
+  .mp-s5-menu-text {
+    flex-wrap: wrap;
+  }
+
+  .mp-s5-menu {
+     width: 80%; 
+  }
+  
+  .mp-s5-relative img {
+    height: 140vh;
+    width: 50%;
+    right: 0;
+    left: auto;
+    position: absolute;
+  }
+
+ 
+
+  .mp-s6-relative {
+    height: 120rem;
+    
+  }
+ 
+
+  .mp-s6-menu-text {
+    flex-wrap: wrap;
+  }
+
+  .mp-s6-menu {
+     width: 80%; 
+     left: 10%;
+  }
+  
+  .mp-s6-relative img {
+    height: 80vh;
+    /* top: 0rem; */
+    width: 50%;
+    
+  }
+ 
+
+
+
+}

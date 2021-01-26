@@ -12,7 +12,7 @@ function SectionFour() {
         </div>
         <div class="mp-s4-menu">
           <h3>The most important</h3>
-          <div class="mp-s4-menu-text-wrapper-border">
+          
             <div class="mp-s4-menu-text-wrapper">
               <h2 class="mp-s4-menu-heading">something</h2>
               <h2 class="mp-s4-menu-heading">sweet</h2>
@@ -39,7 +39,7 @@ function SectionFour() {
                   <h3>Apple Pie (Dessert drink)</h3>
                   <h5>Secret recipe!</h5>
                   <h4>145kr</h4>
-                </div>
+                
               </div>
             </div>
           </div>
