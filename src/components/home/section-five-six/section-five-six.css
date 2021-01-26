@@ -87,3 +87,70 @@
 .h3-latest-post {
   margin-top: 3rem;
 }
+
+
+/* Medium devices (tablets, less than 62em (992px)) */
+@media (max-width: 62em) { 
+
+
+
+  .hp-s5-relative img {
+    position: absolute;
+    top: -9rem;
+    right: 10%;
+    display: block;
+    object-fit: cover;
+    height: 90vh;
+    width: 80%;
+  }
+
+
+  .hp-s6-relative img {
+    position: absolute;
+    top: 0;
+    left: 10%;
+    right: 0;
+    display: block;
+    object-fit: cover;
+    height: 90vh;
+    width: 100%;
+  }}
+
+
+  /* Small devices (landscape phones, less than 48em (768px ) ) */
+@media (max-width: 48em) { 
+
+
+
+.hp-s6-text-body {
+  left: 10%;
+  
+}
+/* .hp-s5-text-body {
+  border: 1px solid pink;
+  position: absolute;
+  top: 8rem;
+  padding-left: 1rem;
+  width: 50%;
+  text-align: left;
+} */
+ }
+
+/*   .hp-s5-s6-background {
+    margin-top: 39rem;
+    background-color: var(--pinkWarm);
+    height: 230vh; 
+  } */
+
+
+  /* 
+  .hp-s4-text-body {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding-top: 1rem;
+    /* height: 20rem; 
+  }
+  
+  .hp-s4-relative {
+    height: 45rem;
+  } */
