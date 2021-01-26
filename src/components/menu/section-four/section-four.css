@@ -76,6 +76,7 @@
   border: 1px solid turquoise;
   text-align: left;
   padding-top: 2rem;
+  justify-content: center;
 }
 
 
@@ -105,6 +106,11 @@
 @media (max-width: 75em) { 
 
 
+  .mp-s4-menu-text-wrapper h2 {
+    font-size: 4rem;
+    letter-spacing: 1.2rem;
+  }
+  
   .mp-s4-relative {
     height: 100rem;
     
@@ -134,17 +140,21 @@
 
 }
 
-@media (max-width: 62em) { 
 
-
-  .mp-s4-menu-text-wrapper h2 {
-    font-size: 4rem;
-    letter-spacing: 1.2rem;
-    /* margin-left: 0;
+@media (max-width: 48em) {
+  .mp-s4-wrapper div {
+    display: block;
+    margin-left: 0;
     margin-right: 0;
     padding-left: 0;
-    padding-right: 0; */
+    padding-right: 0;
+    text-align: left;
+    border: none;
   }
-  
 
+  .mp-s4-wrapper h2 {
+    border: none;
+    font-size: 3rem;
+    letter-spacing: 1rem;
+  }
 }

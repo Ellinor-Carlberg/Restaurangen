@@ -6,7 +6,7 @@
   height: 100rem;
   border: 1px solid green;
   width: 100%;
-  margin: auto; 
+  margin: auto;
   top: 0;
   position: relative;
   text-align: center;
@@ -41,7 +41,6 @@
   align-items: center;
   /* text-align: center; */
   /* width: 90%; */
-  
 }
 
 .mp-s2-menu-text-wrapper {
@@ -53,20 +52,18 @@
   /* width: 90%; */
 }
 
-
-
 .mp-s2-menu-text-wrapper h2 {
   border: 1px solid red;
-  align-self: flex-start; 
-  
+  align-self: flex-start;
 }
 
 .mp-s2-menu-text {
   display: flex;
   /* flex-wrap: wrap; */
   border: 1px solid turquoise;
-  text-align: left; 
-   padding-top: 2rem;
+  text-align: left;
+  padding-top: 2rem;
+  justify-content: center;
 }
 
 .mp-s2-menu-text div {
@@ -77,11 +74,6 @@
 .mp-s2-text hr {
   border: 2px solid var(--red);
 }
-
-
-
-
-
 
 .mp-s3-relative {
   border: 1px solid green;
@@ -133,6 +125,7 @@
 
 .mp-s3-menu-text {
   display: flex;
+  justify-content: center;
   border: 1px solid turquoise;
   text-align: left;
   padding-top: 2rem;
@@ -147,59 +140,51 @@
   border: 2px solid var(--red);
 }
 
-
-.mp-s2-menu h4, .mp-s3-menu h4 {
+.mp-s2-menu h4,
+.mp-s3-menu h4 {
   display: inline-block;
   margin: 0;
   padding-bottom: 1rem;
   line-height: 1.5rem;
 }
 
-.mp-s2-menu h5, .mp-s3-menu h5 {
+.mp-s2-menu h5,
+.mp-s3-menu h5 {
   text-justify: auto;
   text-align: left;
 }
 
-
-
-
-@media (max-width: 75em) { 
-
-
+@media (max-width: 75em) {
   .mp-s2-relative {
     height: 150rem;
-    
   }
-
 
   .mp-s2-menu-text {
     flex-wrap: wrap;
   }
 
   .mp-s2-menu {
-     width: 80%; 
-     left: 10%;
+    width: 80%;
+    left: 10%;
   }
-  
+
   .mp-s2-relative img {
     height: 150vh;
     top: 50rem;
     width: 50%;
-    
   }
- 
+
   .mp-s3-relative {
     height: 100rem;
-    
   }
   .mp-s3-menu-text {
     flex-wrap: wrap;
   }
 
   .mp-s3-menu {
-     width: 80%; 
+    width: 80%;
   }
-  
+
   .mp-s3-relative img {
     height: 150vh;
     width: 50%;
@@ -207,30 +192,22 @@
     padding-left: 0;
     position: absolute;
   }
-
-
 }
 
-@media (max-width: 48em) { 
-  .mp-s2-relative img {
-    height: 10vh;
-    width: 10%;
+@media (max-width: 48em) {
+  .mp-s2-s3-wrapper div {
+    display: block;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
+    text-align: left;
+    border: none;
   }
- } 
 
-  /* 
-
-  .mp-s2-menu-text-wrapper {
-    border: 5px solid var(--blue);
-    margin-top: 2rem;
-    padding: 5rem 4rem;
-    display: flex;
-    flex-direction: column;
-    
+  .mp-s2-s3-wrapper h2 {
+    border: none;
+    font-size: 3rem;
+    letter-spacing: 1rem;
   }
-  h1 {
-    font-size: 4.5rem;
-    letter-spacing: 1.2rem;
-    line-height: 5rem;
-  } */
-
+}
