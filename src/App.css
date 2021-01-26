@@ -184,6 +184,19 @@ h6 {
   padding: 1rem 1rem 0 0;
 }
 
+
+
+@media (max-width: 48em) { 
+ 
+h1 {
+  font-size: 4rem;
+  letter-spacing: 1.5rem;
+  line-height: 5rem;
+}
+
+ }
+
+
 /* 
 
 // Large devices (desktops, less than 75em (1200px))

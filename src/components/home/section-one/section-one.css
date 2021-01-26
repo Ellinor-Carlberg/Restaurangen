@@ -87,3 +87,31 @@
     width: 70vw;
   }
 }
+
+
+
+/* Small devices (landscape phones, less than 48em (768px  ) */
+@media (max-width: 48em) { 
+  .hp-s1-relative {
+    width: 100%; 
+    top: 5rem;
+  }
+ }
+/* 
+
+// Large devices (desktops, less than 75em (1200px))
+@media (max-width: 1199.98px) { ... }
+
+// Medium devices (tablets, less than 62em (992px))
+@media (max-width: 991.98px) { ... }
+
+// Small devices (landscape phones, less than 48em (768px ) )
+@media (max-width: 767.98px) { ... }
+
+// Extra small devices (phones, less than 36em (576px))
+@media (max-width: 575.98px) { ... }
+
+// Smallest device (Iphone SE, less than 20em  (320px))
+@media (max-width: 319.98px) { ... }
+
+*/
