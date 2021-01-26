@@ -12,7 +12,7 @@ function SectionTwo() {
             From japan to sweden<hr></hr>
           </h3>
           <h5>
-          Restaurant Miri is own and driven by Elliot Chow. Maybe you have heard of him because of his mini-bao looking like burgers that he started selling at the Western Market long before opening his own restaurant. Or maybe you got to know who he was when he got nominated for Best Chef by The Table's 50 Best Asian Restaurants in 2017.<br></br> Elliot is a Japanese-born chef but when he was 12years his family moved to Sweden. With him Elliot took the love for the asian cuisine.
+          Restaurant Miri is own and driven by Elliot Saito. Maybe you have heard of him because of his mini-bao looking like burgers that he started selling at the Western Market long before opening his own restaurant. Or maybe you got to know who he was when he got nominated for Best Chef by The Table's 50 Best Asian Restaurants in 2017.<br></br> Elliot is a Japanese-born chef but when he was 12years his family moved to Sweden. With him Elliot took the love for the asian cuisine.
 Now Elliot have teamed up with his favorite partners and started Restaurant Miri in 2019. Elliot named the restaurant Miri after his beloved childhood cat Miri who always loved to be in the kitchen with him and taste some of his cooking.<br></br>
 </h5>
 <h4>How to describe restaurant Miri</h4>
