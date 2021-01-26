@@ -4,7 +4,7 @@
   padding-top: 10rem;
   border: 1px solid purple;
   width: 100%;
-  height: 60vh;
+  height: 27rem;
 
   margin: auto;
   position: relative;
@@ -27,8 +27,7 @@
   border: 1px solid orange;
   justify-content: flex-end;
   align-items: flex-end;
-  flex-wrap: wrap;
-  width: 80%;
+  width: 100%;
   margin-left: auto;
   /* height: 20rem; */
 }
@@ -61,3 +60,37 @@
 .hp-s4-text-body button {
   margin: 0 0 2rem 0; 
 } 
+
+
+/* Medium devices (tablets, less than 62em (992px)) */
+@media (max-width: 62em) { 
+
+  .hp-s4-text-body {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding-top: 1rem;
+    /* height: 20rem; */
+  }
+  
+  .hp-s4-relative {
+    height: 45rem;
+  }
+/* 
+  .hp-s3-relative {
+    height: 72rem;
+  }
+.small-media-directions {
+  display: block;
+  width: 100%;
+}
+
+  .small-device-hidden-img {
+    display: none;
+  }
+
+
+.small-media-directions img{
+  padding: 1rem 0;
+  width: 30rem;
+  height: 10rem;
+}  */}
