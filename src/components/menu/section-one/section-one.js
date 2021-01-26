@@ -15,7 +15,7 @@ function SectionOne() {
           </div>
           <div>
             <h3>
-              yummy Asian fushion<hr></hr>
+            Asian fushion<hr></hr>
             </h3>
           </div>
         </div>

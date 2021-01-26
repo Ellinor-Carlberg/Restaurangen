@@ -46,23 +46,25 @@
 
 .mp-s1-text-body div:nth-child(1) {
   border: 1px solid darkgreen;
+  /* width: 50%; */
   /* padding-left: 5rem; */
 }
 
 .mp-s1-text-body div:nth-child(2) {
   border: 1px solid darkgreen;
+  /* width: auto; */
   /* padding-right: 5rem; */
 }
 
 .mp-s1-text-body h4 {
-  padding: .2rem 0;
+  padding: 0rem 1rem 0 0;
   margin: 0;
   text-align: left;
 }
 
 
 .mp-s1-text-body h3 {
-  width: 22.5rem;
+  width: 15rem;
   padding: 0;
   margin: 0;
   text-align: right;
@@ -72,4 +74,60 @@
 .mp-s1-text-body hr {
   border: 2px solid var(--blue);
   width: 100%;
+  /* padding: 0; */
+  margin: 1rem 0 0 0 ;  
 }
+
+
+
+/* Devices (tablets, less than 70em (px)*/
+@media screen and (max-width: 70em) {
+  .mp-s1-text-body {
+    top: 26rem;
+    width: 100%;
+  }
+
+  .mp-s1-text-body h3 {
+    white-space: wrap;
+    
+  }
+
+
+
+  .mp-s1-text-body {
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+    align-items: flex-end;
+    bottom: 0;
+  }
+  
+
+}
+
+/* Medium devices (tablets, less than 67em (992px)*/
+/* @media screen and (max-width: 60em) {
+  
+
+}
+ */
+
+
+/* Small devices (landscape phones, less than 48em (768px  ) */
+ @media (max-width: 48em) { 
+  .mp-s1-relative {
+    width: 100%;
+    top: 8rem;  
+  }
+
+  .mp-s1-heading {
+    top: -2.5rem;
+  } 
+
+  .mp-s1-text-body {
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+    align-items: flex-end;
+  }
+  
+
+ } 
