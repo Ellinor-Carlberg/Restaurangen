@@ -32,46 +32,55 @@
 
 .mp-s2-menu {
   color: var(--blue);
-  border: 1px solid pink;
+  border: 1px solid orange;
   position: absolute;
   top: 15rem;
   left: calc(3rem + 3vw);
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-
-.mp-s2-menu-text-wrapper-border {
-  border: 5px solid var(--blue);
-  margin-top: 2rem;
+  /* width: 90%; */
+  
 }
 
 .mp-s2-menu-text-wrapper {
-  border: 1px solid darkgreen;
+  border: 5px solid var(--blue);
+  margin-top: 1rem;
   padding: 5rem 4rem;
   display: flex;
   flex-direction: column;
+  /* width: 90%; */
 }
+
+
 
 .mp-s2-menu-text-wrapper h2 {
   border: 1px solid red;
-  align-self: flex-start;
+  align-self: flex-start; 
+  
 }
 
 .mp-s2-menu-text {
   display: flex;
+  /* flex-wrap: wrap; */
   border: 1px solid turquoise;
   text-align: left;
+  padding-top:2rem;
 }
 
 .mp-s2-menu-text div {
   border: 1px solid brown;
-  padding: 2rem;
+  /* padding: 1rem; */
 }
 
 .mp-s2-text hr {
   border: 2px solid var(--red);
 }
+
+
+
+
+
 
 .mp-s3-relative {
   border: 1px solid green;
@@ -104,16 +113,17 @@
   text-align: center;
 }
 
-.mp-s3-menu-text-wrapper-border {
-  border: 5px solid var(--blue);
-  margin-top: 2rem;
-}
+/* .mp-s3-menu-text-wrapper-border {
+  
+} */
 
 .mp-s3-menu-text-wrapper {
   border: 1px solid darkgreen;
   padding: 5rem 4rem;
   display: flex;
   flex-direction: column;
+  border: 5px solid var(--blue);
+  margin-top: 2rem;
 }
 
 .mp-s3-menu-text-wrapper h2 {
@@ -148,3 +158,75 @@
   text-justify: auto;
   text-align: left;
 }
+
+
+
+
+@media (max-width: 75em) { 
+
+
+  .mp-s2-relative {
+    height: 150rem;
+    
+  }
+
+
+  .mp-s2-menu-text {
+    flex-wrap: wrap;
+  }
+
+  .mp-s2-menu {
+     width: 80%; 
+     left: 10%;
+  }
+  
+  .mp-s2-relative img {
+    height: 150vh;
+    top: 50rem;
+    width: 50%;
+    
+  }
+ 
+  .mp-s3-relative {
+    height: 100rem;
+    
+  }
+  .mp-s3-menu-text {
+    flex-wrap: wrap;
+  }
+
+  .mp-s3-menu {
+     width: 80%; 
+  }
+  
+  .mp-s3-relative img {
+    height: 150vh;
+    width: 50%;
+    left: 0;
+    padding-left: 0;
+    position: absolute;
+  }
+
+ 
+
+
+
+}
+
+
+  /* 
+
+  .mp-s2-menu-text-wrapper {
+    border: 5px solid var(--blue);
+    margin-top: 2rem;
+    padding: 5rem 4rem;
+    display: flex;
+    flex-direction: column;
+    
+  }
+  h1 {
+    font-size: 4.5rem;
+    letter-spacing: 1.2rem;
+    line-height: 5rem;
+  } */
+
