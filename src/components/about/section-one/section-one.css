@@ -57,7 +57,7 @@
 
 .ap-s1-text-body h3 {
   border: 1px solid darkgreen;
-   
+   width: 100%;
 }
 
 .ap-s1-text-body hr {
@@ -77,6 +77,8 @@
   .ap-s1-heading {
     top: -2.5rem;
   } 
+
+
 /* 
   .ap-s1-text-body {
     flex-wrap: wrap-reverse;

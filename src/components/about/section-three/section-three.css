@@ -45,3 +45,13 @@
 .h5-email h5{
   padding-top: .3rem;
 } 
+
+/* Medium devices (tablets, less than 62em (992px)) */
+@media (max-width: 75em) { 
+  .ap-s3-text {
+    top: 5rem;
+    right: auto; 
+    left: 10%;
+    width: 80%;
+  }
+ }
