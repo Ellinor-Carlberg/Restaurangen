@@ -10,9 +10,9 @@ import mountain from "../../../media/images/greymap1.png";
 function SectionThree() {
   return (
     <div class="hp-s3-relative">
-      <a href="https://www.google.se/maps/" target="_blank">
+      <div class="small-device-hidden-img"><a href="https://www.google.se/maps/" target="_blank">
         <img src={mountain} alt="mountain"></img>
-      </a>
+      </a></div>
       <div class="hp-s3-text-heading">
         <h2>visit us</h2>
       </div>
@@ -63,6 +63,15 @@ function SectionThree() {
         <a href="https://www.tiktok.com/" target="_blank">
           <TikTok class="icon" />
         </a>
+<div class="small-media-directions">
+<div class="get-directions">
+          <h6>Click on the map to get directions</h6>
+        </div>
+        <a href="https://www.google.se/maps/" target="_blank">
+        <img src={mountain} alt="mountain"></img>
+      </a>
+        
+        </div>
       </div>
     </div>
   );
