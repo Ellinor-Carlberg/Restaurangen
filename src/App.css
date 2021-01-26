@@ -1,27 +1,27 @@
 @import url("https://use.typekit.net/kbg5qyn.css");
 
 :root {
-  --black: #000000; 
+  --black: #000000;
   --grey: #b8b8b7;
   --greyDark: #2f2f30;
-  --greyLight: #F0F0F0;
-  --white: #FFFFFF;
---orange: #ff7000;
---orangeDark: #ee6802;
-/* fb770d fe7f2d */
+  --greyLight: #f0f0f0;
+  --white: #ffffff;
+  --orange: #ff7000;
+  --orangeDark: #ee6802;
+  /* fb770d fe7f2d */
   --brownDark: #3e3d34;
   --brownDarkDark: #24231d;
   --brown: #585850;
   /* change? */
-  --brownLight: #9FA0A0;
-  --yellow: #Faf160;
+  --brownLight: #9fa0a0;
+  --yellow: #faf160;
   --yellowLight: #fff9a9;
   /* change? */
   /* --orange: #FFB33F; */
   --red: #ee5b62;
   --redDark: #b82d34;
   --pinkWarm: #f5c2bf;
-  --pinkCold: #F8dce7;
+  --pinkCold: #f8dce7;
   --blue: #2b10bf;
   --blueDark: #1e0eaa;
   /* #2b10bf; */
@@ -29,8 +29,8 @@
   --green: #8bc4c4;
   --greenLight: #d3e7e7;
   --beige: #eee8da;
-/* change? */
-  --blueLogo: #00ACF0;
+  /* change? */
+  --blueLogo: #00acf0;
 }
 
 body {
@@ -54,7 +54,7 @@ body {
 
 hr {
   margin: 1.5rem 0 3rem 0;
-  width: 100%; 
+  width: 100%;
 }
 
 h1 {
@@ -65,9 +65,6 @@ h1 {
   font-weight: 500;
   margin: 0;
   line-height: 9rem;
- /*  text-align: justify;
-  text-justify: inter-word; 
-  width: 100%; */
 }
 
 h2 {
@@ -76,7 +73,6 @@ h2 {
   text-transform: uppercase;
   font-weight: 300;
   margin: 0;
-  
 }
 
 .h2-small {
@@ -87,19 +83,19 @@ h2 {
   margin: 0;
 }
 
- h3 {
+h3 {
   font-size: 1.5rem;
   text-transform: uppercase;
-  letter-spacing: .3rem;
+  letter-spacing: 0.3rem;
   font-weight: 600;
-  margin:  .5rem 0;
+  margin: 0.5rem 0;
   width: 30rem;
- }
+}
 
 h4 {
   font-size: 1.1rem;
   text-transform: uppercase;
-  letter-spacing: .15rem;
+  letter-spacing: 0.15rem;
   font-weight: 600;
   margin: 3rem 0 0 0;
 }
@@ -108,14 +104,13 @@ h4 {
   border: 4px solid var(--red);
   font-size: 1.1rem;
   text-transform: uppercase;
-  letter-spacing: .15rem;
+  letter-spacing: 0.15rem;
   font-weight: 600;
   margin: 1rem 0 0 0;
   text-align: center;
   padding: 1rem;
   width: 100%;
 }
-
 
 h5 {
   font-size: 1.2rem;
@@ -135,16 +130,47 @@ button {
   border: none;
   font-size: 1.1rem;
   text-transform: uppercase;
-  letter-spacing: .15rem;
+  letter-spacing: 0.15rem;
   font-weight: 600;
-  /* margin: 0.5rem 0; */
   display: block;
- color: var(--beige);
- padding: 1rem 2rem;
- /* width: 14rem; */
- margin: 1rem 0 3rem 0;
-  
+  color: var(--beige);
+  padding: 1rem 2rem;
+  margin: 1rem 0 3rem 0;
+  text-decoration: none;
 }
+
+
+ button a{
+  text-decoration: none;
+  color: var(--beige);
+} 
+
+
+button a:link {
+  text-decoration: none;
+  color: var(--beige);
+}
+
+button a:visited {
+  text-decoration: none;
+  color: var(--beige);
+}
+button a:focus {
+  text-decoration: none;
+  color: var(--beige);
+}
+
+button a:hover {
+  font-size: 115%;
+  color: var(--beige);
+}
+
+button a:active {
+  text-decoration: none;
+  color: var(--beige);
+}
+
+
 
 h6 {
   font-size: 1rem;

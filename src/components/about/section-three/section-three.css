@@ -9,26 +9,19 @@
   text-align: center;
 }
 
-.ap-s3-relative img {
-  display: block;
-  object-fit: cover;
-  height: 60%;
-  width: 40%;
-  right: calc(3rem + 3vw);
-  position: absolute;
-}
+
 
 .ap-s3-text {
   border: 1px solid pink;
   position: absolute;
-  top: 10rem;
-  left: 10%;
-  width: 80%;
+  top: 5rem;
+  right: 10%;
   text-align: left;
 }
 
 .ap-s3-text-body hr {
   border: 2px solid var(--red);
+  width: 100%;
 }
 
 
