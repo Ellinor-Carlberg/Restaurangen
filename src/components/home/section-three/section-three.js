@@ -5,7 +5,7 @@ import { ReactComponent as Instagram } from "../../../media/svg/002-instagram.sv
 import { ReactComponent as TikTok } from "../../../media/svg/004-tiktok.svg";
 import { ReactComponent as Email } from "../../../media/svg/009-email.svg";
 import { ReactComponent as Arrow } from "../../../media/svg/arrow.svg";
-import mountain from "../../../media/images/mapgrey.png";
+import mountain from "../../../media/images/greymap1.png";
 
 function SectionThree() {
   return (
