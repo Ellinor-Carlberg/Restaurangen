@@ -10,7 +10,7 @@ import mountain from "../../../media/images/mapgrey.png";
 function SectionThree() {
   return (
     <div class="hp-s3-relative">
-      <img src={mountain} alt="mountain"></img>
+      <a href="https://www.google.se/maps/" target="_blank"><img src={mountain} alt="mountain"></img></a> 
       <div class="hp-s3-text-heading">
         <h2>visit us</h2>
       </div>
