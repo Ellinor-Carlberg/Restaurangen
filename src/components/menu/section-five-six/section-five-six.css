@@ -208,3 +208,21 @@
 
 
 }
+
+
+
+@media (max-width: 62em) { 
+
+  .mp-s5-menu-text-wrapper h2 {
+    font-size: 4rem;
+    letter-spacing: 1.2rem;
+ 
+  }
+
+  .mp-s6-menu-text-wrapper h2 {
+    font-size: 4rem;
+    letter-spacing: 1.2rem;
+  }
+
+
+}
