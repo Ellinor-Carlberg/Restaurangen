@@ -113,8 +113,14 @@
     display: block;
     object-fit: cover;
     height: 90vh;
+  }
+
+  .hp-s6-text-body {
+    left: 1rem;
     
-  }}
+    
+  }
+  }
 
 
   /* Small devices (landscape phones, less than 48em (768px ) ) */
@@ -132,7 +138,7 @@
   }
   
 .hp-s6-text-body {
-  left: 1rem;
+  
   width: 90%;
   
 }
