@@ -97,11 +97,9 @@
   .hp-s5-relative img {
     position: absolute;
     top: -9rem;
-    right: 10%;
-    display: block;
-    object-fit: cover;
-    height: 90vh;
-    width: 80%;
+    
+    left: 0;
+    width: 90%;
   }
 
 
@@ -120,8 +118,7 @@
   /* Small devices (landscape phones, less than 48em (768px ) ) */
 @media (max-width: 48em) { 
 
-
-
+  
 .hp-s6-text-body {
   left: 10%;
   
