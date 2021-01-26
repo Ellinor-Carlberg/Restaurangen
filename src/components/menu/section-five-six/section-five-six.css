@@ -57,11 +57,12 @@
   display: flex;
   border: 1px solid turquoise;
   text-align: left;
+  padding-top: 2rem;
 }
 
 .mp-s5-menu-text div {
   border: 1px solid brown;
-  padding: 2rem;
+  /* padding: 2rem; */
 }
 
 .mp-s5-text hr {
@@ -125,6 +126,7 @@
 }
 
 .mp-s6-menu-text {
+  padding-top: 2rem;
   display: flex;
   border: 1px solid turquoise;
   text-align: left;
@@ -132,7 +134,7 @@
 
 .mp-s6-menu-text div {
   border: 1px solid brown;
-  padding: 2rem;
+  /* padding: 2rem; */
 }
 
 .mp-s6-text hr {

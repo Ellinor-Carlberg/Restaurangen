@@ -82,7 +82,7 @@ function SectionTwoAndThree() {
         <img src={mountain2} alt="mountain"></img>
         <div class="mp-s3-menu">
           <h3>Japanese noodle soup</h3>
-          <div class="mp-s3-menu-text-wrapper-border">
+          
             <div class="mp-s3-menu-text-wrapper">
               <h2 class="mp-s3-menu-heading">ramen</h2>
               <div class="mp-s3-menu-text">
@@ -126,7 +126,7 @@ function SectionTwoAndThree() {
                   </h4>
                 </div>
               </div>
-            </div>
+           
           </div>
         </div>
       </div>
