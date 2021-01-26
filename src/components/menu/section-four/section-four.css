@@ -85,3 +85,32 @@
   text-justify: auto;
   text-align: left;
 }
+
+
+
+@media (max-width: 75em) { 
+
+
+  .mp-s4-relative {
+    height: 100rem;
+    
+  } 
+
+
+  .mp-s4-menu-text {
+    flex-wrap: wrap;
+  }
+
+  .mp-s4-menu {
+     width: 80%; 
+     left: 10%;
+  }
+  
+  .mp-s4-relative img {
+    height: 130vh;
+    /* top: 50rem; */
+    width: 50%;
+    
+  }
+
+}
