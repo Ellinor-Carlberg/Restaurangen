@@ -2,6 +2,7 @@ import React from "react";
 import "./section-five-six.css";
 import mountain from "../../../media/images/chairs.jpg";
 import mountain1 from "../../../media/images/dumplings8.jpg";
+import { NavLink } from "react-router-dom";
 
 function SectionFiveAndSix() {
   return (
@@ -18,7 +19,8 @@ function SectionFiveAndSix() {
             of yummy things! Our own unique Cocktails and other liquids to
             quench your thirst.
           </h5>
-          <button>Check our menu</button>
+          <button><NavLink className="nav-link" to="/menu">Check our menu</NavLink>
+</button>
         </div>
       </div>
       <div class="hp-s6-relative">
@@ -34,7 +36,7 @@ function SectionFiveAndSix() {
             fun! Check out our news page for information about events at the
             restaurant and the latest uppdates.
           </h5>
-          <button>I want to know</button>
+          <button><NavLink className="nav-link" to="/news">I want to know</NavLink></button>
         </div>
       </div>
     </div>
