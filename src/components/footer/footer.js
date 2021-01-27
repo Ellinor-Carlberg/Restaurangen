@@ -26,13 +26,13 @@ function Footer() {
           </div>
         </div>
         <div class="footer-social">
-          <a href="https://www.facebook.com/" target="_blank">
+          <a href="https://www.facebook.com/" target="_blank "rel="noreferrer">
             <Facebook class="icon" />
           </a>
-          <a href="https://www.instagram.com/" target="_blank">
+          <a href="https://www.instagram.com/" target="_blank"rel="noreferrer">
             <Instagram class="icon" />
           </a>
-          <a href="https://www.tiktok.com/" target="_blank">
+          <a href="https://www.tiktok.com/" target="_blank"rel="noreferrer">
             <TikTok class="icon" />
           </a>
           <hr></hr>

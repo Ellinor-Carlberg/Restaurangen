@@ -15,7 +15,7 @@ function SectionFour() {
         <div class="hp-s4-text-body">
           <div>
             <button>
-              <a href="https://www.thefork.se/" target="_blank">
+              <a href="https://www.thefork.se/" target="_blank" rel="noreferrer">
                 Book table
               </a>
             </button>

@@ -10,7 +10,7 @@ import mountain from "../../../media/images/greymap1.png";
 function SectionThree() {
   return (
     <div class="hp-s3-relative">
-      <div class="small-device-hidden-img"><a href="https://www.google.se/maps/" target="_blank">
+      <div class="small-device-hidden-img"><a href="https://www.google.se/maps/" target="_blank" rel="noreferrer">
         <img src={mountain} alt="mountain"></img>
       </a></div>
       <div class="hp-s3-text-heading">
@@ -54,20 +54,20 @@ function SectionThree() {
         <h4>social media</h4>
         <h5>Check us out and follow!</h5>
 
-        <a href="https://www.facebook.com/" target="_blank">
+        <a href="https://www.facebook.com/" target="_blank" rel="noreferrer">
           <Facebook class="icon" />
         </a>
-        <a href="https://www.instagram.com/" target="_blank">
+        <a href="https://www.instagram.com/" target="_blank" rel="noreferrer">
           <Instagram class="icon" />
         </a>
-        <a href="https://www.tiktok.com/" target="_blank">
+        <a href="https://www.tiktok.com/" target="_blank" rel="noreferrer">
           <TikTok class="icon" />
         </a>
 <div class="small-media-directions">
 <div class="get-directions">
           <h6>Click on the map to get directions</h6>
         </div>
-        <a href="https://www.google.se/maps/" target="_blank">
+        <a href="https://www.google.se/maps/" target="_blank" rel="noreferrer">
         <img src={mountain} alt="mountain"></img>
       </a>
         
