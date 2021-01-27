@@ -69,6 +69,7 @@
   text-align: center;
 }
 
+
 .hp-s6-text-body {
   border: 1px solid turquoise;
   position: absolute;
@@ -147,7 +148,11 @@
   width: 80%;
 }
 
-
+.hp-s6-relative h2 {
+  
+  width: 95%;
+ 
+}
 
 /* 
 /* Medium devices (tablets, less than 62em (992px)) */

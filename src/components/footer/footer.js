@@ -17,7 +17,7 @@ function Footer() {
           <h4>Sankt Eriksgatan 70, 113 20 Stockholm</h4>
           <h4 class="h4-padding">OPENING HOURS</h4>
           <h4> Monday - Sunday 11:30 - 22:00</h4>
-          <h3>phone 040-121490</h3>
+          <h3 class="phone-wrap"><span>phone </span><span>040-121490</span></h3>
           <div class="h4-email">
             <a href="mailto:contact@miri.com">
               <Email class="icon email" />

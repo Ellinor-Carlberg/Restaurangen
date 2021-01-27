@@ -188,13 +188,12 @@
   align-items: center;
   justify-content: center;
   /* text-align: left; */
-  width: auto;
+  
   
 }
 
-
 .footer-text h3 {
-  width: 20rem;
+  
   border: 1px solid green;
   
 }
@@ -221,5 +220,24 @@
 
    }
 
+
+   @media (max-width: 32em) {
+    
+
+    .phone-wrap {
+      width: auto; 
+      display: flex;
+      flex-direction: column;
+      border: 1px solid green;
+      
+    }
+    
+    .footer-social {
+      
+      bottom: 1rem;
+     
+    }
+
+    }
    
   
