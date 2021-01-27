@@ -5,7 +5,7 @@ import mountain from "../../../media/images/hand.jpg";
 function SectionTwo() {
   return (
     <div class="hp-s2-relative">
-      <img src={mountain} alt="mountain"></img>
+      <img src={mountain} alt="hand holding orange"></img>
       <div class="hp-s2-text">
         <div class="hp-s2-text-body">
           <h3>

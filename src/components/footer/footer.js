@@ -11,7 +11,7 @@ function Footer() {
   return (
     <div class="footer">
       <div class="footer-relative">
-        <img src={mountain} alt="mountain"></img>
+        <img src={mountain} alt="fortune cookie"></img>
         <h2>CONTACT</h2>
         <div class="footer-text">
           <h4>Sankt Eriksgatan 70, 113 20 Stockholm</h4>

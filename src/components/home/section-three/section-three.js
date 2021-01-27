@@ -11,7 +11,7 @@ function SectionThree() {
   return (
     <div class="hp-s3-relative">
       <div class="small-device-hidden-img"><a href="https://www.google.se/maps/" target="_blank" rel="noreferrer">
-        <img src={mountain} alt="mountain"></img>
+        <img src={mountain} alt="map"></img>
       </a></div>
       <div class="hp-s3-text-heading">
         <h2>visit us</h2>

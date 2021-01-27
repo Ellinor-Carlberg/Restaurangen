@@ -6,7 +6,7 @@ function SectionFour() {
   return (
     <div class="mp-s4-wrapper">
       <div class="mp-s4-relative">
-        <img src={mountain} alt="mountain"></img>
+        <img src={mountain} alt="fruit"></img>
         <div class="mp-s4-heading-small">
           <h2 class="h2-small">Desserts</h2>
         </div>

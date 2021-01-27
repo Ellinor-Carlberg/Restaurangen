@@ -10,7 +10,7 @@ function SectionFiveAndSix() {
         <div class="mp-s6-heading-small">
           <h2 class="h2-small">Drinks</h2>
         </div>
-        <img src={cocktail} alt="mountain"></img>
+        <img src={cocktail} alt="cocktail"></img>
         <div class="mp-s5-menu">
           <h3>All can be made alcohol free</h3>
           <div class="mp-s5-menu-text-wrapper-border">
@@ -49,7 +49,7 @@ function SectionFiveAndSix() {
         </div>
       </div>
       <div class="mp-s6-relative">
-        <img src={mountain} alt="mountain"></img>
+        <img src={mountain} alt="citrus"></img>
         <div class="mp-s6-menu">
           <h3>Chinese liquor and more</h3>
           <div class="mp-s6-menu-text-wrapper-border">

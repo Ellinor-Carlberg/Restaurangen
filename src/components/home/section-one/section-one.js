@@ -49,7 +49,7 @@ function SectionOne() {
           </div>
           <hr></hr>
         </div>
-        <img src={mountain} alt="mountain"></img>
+        <img src={mountain} alt="person cooking food"></img>
       </div>
     </div>
   );

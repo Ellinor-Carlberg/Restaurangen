@@ -8,7 +8,7 @@ function SectionFiveAndSix() {
   return (
     <div class="hp-s5-s6-background">
       <div class="hp-s5-relative">
-        <img src={mountain1} alt="mountain"></img>
+        <img src={mountain1} alt="dumplings"></img>
         <h2 class="hp-s5-text-heading">MENU</h2>
         <div class="hp-s5-text-body">
           <h3>
@@ -24,7 +24,7 @@ function SectionFiveAndSix() {
         </div>
       </div>
       <div class="hp-s6-relative">
-        <img src={mountain} alt="mountain"></img>
+        <img src={mountain} alt="restaurant chairs"></img>
         <h2 class="hp-s6-text-heading">LATEST NEWS</h2>
 
         <div class="hp-s6-text-body">

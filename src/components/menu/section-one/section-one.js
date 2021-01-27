@@ -6,7 +6,7 @@ function SectionOne() {
   return (
     <div class="mp-s1-background">
       <div class="mp-s1-relative">
-        <img src={mountain} alt="mountain"></img>
+        <img src={mountain} alt="dumplings"></img>
         <h1 class="mp-s1-heading">our menu</h1>
         <div class="mp-s1-text-body">
           <div>

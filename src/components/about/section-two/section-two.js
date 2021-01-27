@@ -5,7 +5,7 @@ import mountain from "../../../media/images/person1.jpg";
 function SectionTwo() {
   return (
     <div class="ap-s2-relative">
-      <img src={mountain} alt="mountain"></img>
+      <img src={mountain} alt="potrait of elliot"></img>
       <div class="ap-s2-text">
         <div class="ap-s2-text-body">
           <h3>
