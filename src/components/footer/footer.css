@@ -1,6 +1,6 @@
 .footer {
   background-color: var(--beige);
-  height: 73rem;
+  height: 63rem;
 }
 
 .footer-relative {
@@ -80,7 +80,7 @@
   width: 70%;
   height: 1rem;
   position: absolute;
-  padding-top: 15rem;
+  padding-top: 8rem;
   margin: 0;
   display: flex;
   flex-direction: column;
@@ -95,19 +95,57 @@
   display: flex;
   align-items: flex-end;
   justify-content: center;
+  padding: .5rem 1rem;
+  /* border: 3px solid var(--blueDark); */
+  border-left: 3px solid var(--blueDark);
+  border-right: 3px solid var(--blueDark); 
+}
+
+.logos-wrapper h4 {
+  margin: 0;
+  padding: 0;
+  white-space: nowrap;
+  color: var(--brownDark)
+  
 }
 
 .footer .logo {
-  fill: var(--blueDark);
-  height: 1rem;
-  padding-bottom: .2rem;
+  margin:0;
+  padding: 0 1rem .1rem 0;
+  width: 2rem;
 }
 
-.footer-relative .logo-wrapper hr {
+/* .footer-relative .logo-wrapper hr {
   border: 2px solid var(--blueDark);
   width: 100%;
+} */
+
+
+/* 
+
+.logos-wrapper {
+  
+  margin: 0 1.5rem;
+  display: flex;
+  padding: .5rem 1rem;
+  border-left: 2px solid var(--black);
+  border-right: 2px solid var(--black);
+  
 }
 
+.logos-wrapper h4{
+  margin: 0;
+  padding: 0;
+  white-space: nowrap;
+ 
+}
+.logos-wrapper .logo {
+  margin:0;
+  padding: 0 1rem .1rem 0;
+  width: 2rem;
+  
+}
+ */
 
 
 .footer .email {

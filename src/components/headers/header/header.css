@@ -13,17 +13,26 @@
 }
 
 .logo-wrapper {
-  width: 10rem;
-  margin: 0 1rem;
+  
+  margin: 0 1.5rem;
   display: flex;
-  align-items: center;
-  justify-content: flex-start;
-
-  /* border: 1px solid #ffff00; */
+  padding: .5rem 1rem;
+  border-left: 2px solid var(--black);
+  border-right: 2px solid var(--black);
+  
 }
 
+.logo-wrapper h4{
+  margin: 0;
+  padding: 0;
+  white-space: nowrap;
+ 
+}
 .logo-wrapper .logo {
-  width: 4rem;
+  margin:0;
+  padding: 0 1rem .1rem 0;
+  width: 2rem;
+  
 }
 
 .nav-wrapper {
@@ -48,8 +57,20 @@
 }
 
 /* Small devices (landscape phones, less than 48em (768px ) */
-@media screen and (max-width: 36em) {
+@media screen and (max-width: 62em) {
   .nav-wrapper {
     display: none;
   }
+
+}
+
+
+/* Small devices (landscape phones, less than 48em (768px ) */
+@media screen and (max-width: 32em) {
+ 
+  .logo-wrapper .hidden-logo{
+    display: none;
+   
+  }
+
 }

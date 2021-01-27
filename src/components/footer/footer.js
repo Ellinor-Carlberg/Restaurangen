@@ -38,12 +38,13 @@ function Footer() {
           <hr></hr>
           <div class="logo-wrapper">
             <div>
-              <div class="row">
+              <div class="row logos-wrapper">
+              <Logo class="logo" />
                 <h4>restaurant miri</h4>
-                <Logo class="logo" />
+                
               </div>
             </div>
-            <hr></hr>
+           
           </div>
         </div>
       </div>
