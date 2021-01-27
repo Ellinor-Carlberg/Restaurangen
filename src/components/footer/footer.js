@@ -41,7 +41,6 @@ function Footer() {
               <div class="row logos-wrapper">
               <Logo class="logo" />
                 <h4>restaurant miri</h4>
-                
               </div>
             </div>
            
