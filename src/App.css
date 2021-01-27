@@ -39,6 +39,10 @@ body {
   height: 100%;
 }
 
+.loading {
+  display: none;
+}
+
 .app-wrapper {
   display: flex;
   flex-direction: column;

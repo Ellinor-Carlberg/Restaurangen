@@ -7,13 +7,14 @@ import "./news-page.css";
 function NewsPage() {
   const [allPostsData, setAllPosts] = useState(null);
 
-    useEffect(() => {
-        /* what we are taking in -fetching from posts */
-        sanityClient.fetch(
-            `*[_type == "post"]{
+  useEffect(() => {
+    /* what we are taking in -fetching from posts */
+    sanityClient
+      .fetch(
+        `*[_type == "post"]{
                 title,
                 slug,
-                publishedAt,
+                releaseDate,
                 mainImage{
                     asset->{
                         _id,
@@ -21,33 +22,42 @@ function NewsPage() {
                     }
                 }    
             }`
-        )
-        .then((data) => setAllPosts(data))
-        .catch(console.error);
-    }, []);
-    return (
-        <div class="ap-wrapper">
-            <SectionOne />
-            <div class="all-post-wrapper">
-                {allPostsData && 
-                    allPostsData.map((post, index) => (
-                        <Link to={'/' + post.slug.current} key={post.slug.current}>
-                        <span key={index}>
-                            <img src={post.mainImage.asset.url} alt="monkey"/>
-                            <span>
-                                <h3>{post.title}</h3>
-                            </span>
-                        </span>
-                        </Link>
-                    )
-                    )}
+      )
+      .then((data) => setAllPosts(data))
+      .catch(console.error);
+  }, []);
+  return (
+    <div class="ap-wrapper">
+      <SectionOne />
+      <div class="all-post-wrapper">
+        {allPostsData &&
+          allPostsData.map((post, index) => (
+            <div class="np-one-post-wrapper">
+              <Link
+                class="post-link"
+                to={"/" + post.slug.current}
+                key={post.slug.current}
+              >
+                <span key={index}>
+                  <span class="np-one-post-heading">
+                    <h3>{post.title}</h3>
+                    <h5>{post.releaseDate}</h5>
+                  </span>
+                  <hr></hr>
+                  <img src={post.mainImage.asset.url} alt="monkey" />
+                </span>
+              </Link>
+              
             </div>
-        </div>
-
-    );
+          ))}
+      </div>
+    </div>
+  );
 }
 
 export default NewsPage;
+
+
 
 /* 
 import React, { useEffect, useState } from "react";

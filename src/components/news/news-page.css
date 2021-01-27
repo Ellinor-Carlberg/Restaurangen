@@ -1,18 +1,80 @@
 .ap-wrapper {
-    background-color: var(--greyLight);
+  background-color: var(--greyLight);
+  color: var(--brownDark);
 }
 
 .all-post-wrapper {
-    width: 80vw;
-    margin: 8rem auto;
-    border: 1px solid red;
-    display: flex;
-    flex-direction: column;
+  width: 80vw;
+  margin: auto;
+  border: 1px solid red;
+  display: flex;
+  flex-direction: column;
+  padding: 5rem 0 7rem 0;
 }
+
+.all-post-wrapper img {
+  max-height: 20rem;
+  width: 100%;
+  display: block;
+  object-fit: cover;
+}
+
 
 .all-post-wrapper img {
     max-height: 20rem;
     width: 100%;
     display: block;
     object-fit: cover;
+  }
+  
+.np-one-post-wrapper {
+    padding: 5rem 0;
 }
+
+.np-one-post-heading {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.np-one-post-wrapper hr {
+    border: 3px solid var(--brownDark);
+}
+
+.post-link {
+  text-decoration: none;
+  color: var(--brownDark);
+}
+
+.post-link:link {
+  text-decoration: none;
+}
+
+.post-link:visited {
+  text-decoration: none;
+}
+
+.post-link:focus {
+  text-decoration: none;
+}
+
+.post-link h3:hover {
+  font-size: 170%;
+}
+
+.post-link:active {
+  text-decoration: none;
+}
+
+
+
+
+@media (max-width: 48em) { 
+
+    .np-one-post-heading {
+        flex-direction: column;
+    }
+  
+  
+  }

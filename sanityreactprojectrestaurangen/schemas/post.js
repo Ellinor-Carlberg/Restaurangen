@@ -43,6 +43,14 @@ export default {
       type: 'datetime',
     },
     {
+      name: 'releaseDate',
+      title: 'Release date',
+      type: 'date',
+      options: {
+        dateFormat: "YYYY-MM-DD",
+      },
+    },
+    {
       name: 'body',
       title: 'Body',
       type: 'blockContent',
