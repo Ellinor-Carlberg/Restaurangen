@@ -8,10 +8,12 @@ function NewsPage() {
   const [allPostsData, setAllPosts] = useState(null);
 
     useEffect(() => {
+        /* what we are taking in -fetching from posts */
         sanityClient.fetch(
             `*[_type == "post"]{
                 title,
                 slug,
+                publishedAt,
                 mainImage{
                     asset->{
                         _id,
@@ -26,14 +28,14 @@ function NewsPage() {
     return (
         <div class="ap-wrapper">
             <SectionOne />
-            <div>
+            <div class="all-post-wrapper">
                 {allPostsData && 
                     allPostsData.map((post, index) => (
                         <Link to={'/' + post.slug.current} key={post.slug.current}>
                         <span key={index}>
                             <img src={post.mainImage.asset.url} alt="monkey"/>
                             <span>
-                                <h2>{post.title}</h2>
+                                <h3>{post.title}</h3>
                             </span>
                         </span>
                         </Link>

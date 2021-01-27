@@ -1,0 +1,41 @@
+.one-post-wrapper {
+    
+    width: 80vw;
+        margin: 8rem auto;
+        border: 1px solid red;
+        display: flex;
+        flex-direction: column;
+    }
+    
+ .one-post-wrapper img {
+        max-height: 20rem;
+        width: 100%;
+        display: block;
+        object-fit: cover;
+    }
+ 
+
+    .author-wrapper {
+        display: flex;
+        align-items: center;
+        
+        
+    }
+
+
+    .author-wrapper h4{
+       
+        margin: 0;
+        border-right: 2px solid var(--brownDark);
+        padding: 0 1rem 0 0;
+    }
+  
+    .author-wrapper .author-img {
+        height: 2rem;
+        width: 2rem;
+        margin-right: 1rem;
+        display: block;
+        object-fit: cover;
+        /* border-left: 2px solid var(--brownDark); */
+        
+    }

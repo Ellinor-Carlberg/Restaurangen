@@ -8,17 +8,19 @@ import "./one-post.css";
 
 const builder = imageUrlBuilder(sanityClient);
 function urlFor(source) {
-    return builder.image(source);
+  return builder.image(source);
 }
 
 export default function OnePost() {
-    const [postData, setPostData] = useState(null);
-    const { slug } = useParams();
-    useEffect(()=> {
-        sanityClient.fetch(
-         `*[slug.current == $slug]{
+  const [postData, setPostData] = useState(null);
+  const { slug } = useParams();
+  useEffect(() => {
+    sanityClient
+      .fetch(
+        `*[slug.current == $slug]{
              title, 
              slug, 
+             publishedAt,
              mainImage{
                  asset->{
                      _id,
@@ -29,34 +31,41 @@ export default function OnePost() {
              "name": author->name,
              "authorImage": author->image 
          }`,
-         { slug }  
-        )
-        .then((data)=> setPostData(data[0]))
-        .catch(console.error)
-    }, [slug]);
+        { slug }
+      )
+      .then((data) => setPostData(data[0]))
+      .catch(console.error);
+  }, [slug]);
 
-     if (!postData) return <div>Loading...</div>;
- 
-    return (
+  if (!postData) return <div>Loading...</div>;
+
+  return (
     <div>
-        <SectionOne />
-        <h2>{postData.title}</h2>
-    <div>
-    <img 
-    src={urlFor(postData.authorImage).width(100).url()} alt="Author is Alejandro"
-    />
-    </div>
-    <h4>{postData.name}</h4>
-    <img 
-    src={urlFor(postData.mainImage).width(200).url()} alt="monkey"
-    />
-    <div>
-        <BlockContent
-        blocks={postData.body}
-        projectId={sanityClient.clientConfig.projectId}
-        dataset={sanityClient.clientConfig.dataset}
+      <SectionOne />
+      <div class="one-post-wrapper">
+        <div>
+          <h3>{postData.title}</h3>
+        </div>
+
+        <img src={urlFor(postData.mainImage).width(100).url()} alt="monkey" />
+        <div>
+          <BlockContent
+            blocks={postData.body}
+            projectId={sanityClient.clientConfig.projectId}
+            dataset={sanityClient.clientConfig.dataset}
+          />
+        </div>
+
+        <div class="author-wrapper">
+        <img
+          class="author-img"
+          src={urlFor(postData.authorImage).width(100).url()}
+          alt="Restaurant Miri"
         />
+            <h4>{postData.name}</h4>
+        
+      </div>
+      </div>
     </div>
-    </div>
-    );
+  );
 }
