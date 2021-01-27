@@ -1,0 +1,96 @@
+.np-s1-background {
+    background-color: var(--grey);
+    height: 115vh;
+  }
+  
+  .np-s1-relative {
+    border: 1px solid red;
+    width: 100%;
+    margin: auto;
+    top: 12rem;
+    position: relative;
+    color: var(--brownDark);
+    text-align: center;
+    display: flex;
+  }
+  
+  
+  .np-s1-relative img {
+    display: block;
+    object-fit: cover;
+    height: 70vh;
+    width: 80%;
+    margin: auto;
+    opacity: .9; 
+  }
+  
+  .np-s1-heading {
+    color: var(--white);
+    border: 1px solid pink;
+    position: absolute;
+    top: -4.5rem;
+    width: 100%;
+    left: 50%;
+    transform: translate(-50%);
+  }
+  
+  .np-s1-text-body {
+    color: var(--white);
+    border: 1px solid orange;
+    position: absolute;
+    top: 5rem;
+    right: 0;
+   width: 40%; 
+    text-align: left;
+    
+  }
+  
+  .np-s1-text-body h3 {
+    border: 1px solid darkgreen;
+     width: 100%;
+  }
+  
+  .np-s1-text-body hr {
+    border: 2px solid var(--white);
+    width: 100%;
+    right: 0;
+  }
+  
+  
+   /* Small devices (landscnpe phones, less than 48em (768px  ) */
+   @media (max-width: 62em) { 
+    .np-s1-text-body {
+     
+      /* top: 17rem;
+      right: auto;
+      left: 1rem; */
+     width:60%; 
+      
+    }
+  
+   } 
+  
+  /* Small devices (landscnpe phones, less than 48em (768px  ) */
+   @media (max-width: 48em) { 
+    .np-s1-relative {
+      width: 100%;
+      top: 8rem;  
+    }
+  
+    .np-s1-heading {
+      top: -2.5rem;
+    } 
+  
+  
+   } 
+  
+   /* Small devices (landscnpe phones, less than 48em (768px  ) */
+   @media (max-width: 36em) { 
+    .np-s1-text-body {
+     width: 80%;
+     left: auto;
+     right: 0; 
+      
+    }
+  
+   } 

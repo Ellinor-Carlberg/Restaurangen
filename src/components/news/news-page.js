@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from "react";
 import sanityClient from "../../client.js";
 import { Link } from "react-router-dom";
+import SectionOne from "./section-one/section-one.js";
+import "./news-page.css";
 
 function NewsPage() {
   const [allPostsData, setAllPosts] = useState(null);
@@ -22,9 +24,8 @@ function NewsPage() {
         .catch(console.error);
     }, []);
     return (
-        <div>
-            <h2>Blog Posts!</h2>
-            <h3>Welcome to my blogpost page!</h3>
+        <div class="ap-wrapper">
+            <SectionOne />
             <div>
                 {allPostsData && 
                     allPostsData.map((post, index) => (

@@ -1,8 +1,10 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-import sanityClient from "../../client.js";
+import sanityClient from "../../../client.js";
 import imageUrlBuilder from "@sanity/image-url";
 import BlockContent from "@sanity/block-content-to-react";
+import SectionOne from "../section-one/section-one.js";
+import "./one-post.css";
 
 const builder = imageUrlBuilder(sanityClient);
 function urlFor(source) {
@@ -37,6 +39,7 @@ export default function OnePost() {
  
     return (
     <div>
+        <SectionOne />
         <h2>{postData.title}</h2>
     <div>
     <img 

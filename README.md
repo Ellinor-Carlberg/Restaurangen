@@ -68,3 +68,15 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+SANITY
+
+need node.js install
+
+
+commands:
+npx create-react-app "project-name"
+
+npm i -g @sanity/cli -install sanity cli
+sanity init -initial santiy project
