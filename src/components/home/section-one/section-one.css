@@ -8,8 +8,6 @@
   margin: auto;
   position: relative;
   top: 10rem;
-
-  border: 1px solid red;
 }
 
 .hp-s1-text {
@@ -19,8 +17,6 @@
   left: 50%;
   transform: translate(-50%);
   width: 60%;
-
-  border: 1px solid pink;
 }
 
 .hp-s1-text hr {
@@ -88,31 +84,26 @@
   }
 }
 
-
-
 /* Small devices (landscape phones, less than 48em (768px  ) */
-@media (max-width: 48em) { 
+@media (max-width: 48em) {
   .hp-s1-relative {
-    width: 100%; 
+    width: 100%;
     top: 5rem;
   }
- }
-
-
-
+}
 
 /* Small devices (landscape phones, less than 48em (768px  ) */
-@media (max-width: 36em) { 
+@media (max-width: 36em) {
   .hp-s1-text {
     width: 90vw;
   }
 }
 
-@media (max-width: 22em) { 
+@media (max-width: 22em) {
   .hp-s1-text h1 {
     font-size: 3rem;
     letter-spacing: 1rem;
-  line-height: 4rem;
+    line-height: 4rem;
   }
 
   .hp-s1-text h3 {
@@ -120,40 +111,8 @@
   }
 }
 
-
-@media (max-width: 19em) { 
+@media (max-width: 19em) {
   .hp-s1-text h1 {
     font-size: 2rem;
   }
 }
-  
-  /* 
-  .hp-s1-text h1 {
-    font-size: 3rem;
-    letter-spacing: 1rem;
-  line-height: 4rem;
-  }
-
-  .hp-s1-text h3 {
-    font-size: 1rem;
-  } */
-
-
-/* 
-
-// Large devices (desktops, less than 75em (1200px))
-@media (max-width: 1199.98px) { ... }
-
-// Medium devices (tablets, less than 62em (992px))
-@media (max-width: 991.98px) { ... }
-
-// Small devices (landscape phones, less than 48em (768px ) )
-@media (max-width: 767.98px) { ... }
-
-// Extra small devices (phones, less than 36em (576px))
-@media (max-width: 575.98px) { ... }
-
-// Smallest device (Iphone SE, less than 20em  (320px))
-@media (max-width: 319.98px) { ... }
-
-*/

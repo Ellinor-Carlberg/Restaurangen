@@ -11,7 +11,7 @@
 
 .hp-s5-relative {
   color: var(--blue);
-  border: 1px solid pink;
+
   position: relative;
   top: 1rem;
   height: 90vh;
@@ -35,7 +35,6 @@
 }
 
 .hp-s5-text-body {
-  border: 1px solid pink;
   position: absolute;
   top: 8rem;
   left: 10%;
@@ -45,7 +44,7 @@
 
 .hp-s6-relative {
   color: var(--blue);
-  border: 1px solid pink;
+
   position: relative;
   top: 8rem;
   width: 100%;
@@ -62,40 +61,34 @@
 }
 
 .hp-s6-relative h2 {
-  border: 1px solid pink;
   position: absolute;
   top: -3.25rem;
   width: 100%;
   text-align: center;
 }
 
-
 .hp-s6-text-body {
-  border: 1px solid turquoise;
   position: absolute;
   top: 13rem;
   right: calc(3rem + 3vw);
   text-align: left;
 }
 
-.hp-s5-text-body button, .hp-s6-text-body button{
+.hp-s5-text-body button,
+.hp-s6-text-body button {
   background-color: var(--blue);
   color: var(--pinkWarm);
   white-space: nowrap;
-
 }
 
 .h3-latest-post {
   margin-top: 3rem;
 }
 
-
 /* Medium devices (tablets, less than 62em (992px)) */
-@media (max-width: 62em) { 
-
+@media (max-width: 62em) {
   .hp-s5-text-body {
     width: 90%;
-    
   }
 
   .hp-s5-relative img {
@@ -104,7 +97,6 @@
     left: 0;
     width: 90%;
   }
-
 
   .hp-s6-relative img {
     position: absolute;
@@ -118,72 +110,29 @@
 
   .hp-s6-text-body {
     left: 1rem;
-    
-    
   }
-  }
+}
 
-
-  /* Small devices (landscape phones, less than 48em (768px ) ) */
-@media (max-width: 36em) { 
-  
+/* Small devices (landscape phones, less than 48em (768px ) ) */
+@media (max-width: 36em) {
   .hp-s5-text-body {
-   
     left: 1rem;
     width: 90%;
-    
   }
 
   .hp-s5-text-body h3 {
     width: 80%;
   }
-  
-.hp-s6-text-body {
-  
-  width: 90%;
-  
-}
 
-.hp-s6-text-body h3 {
-  width: 80%;
-}
-
-.hp-s6-relative h2 {
-  
-  width: 95%;
- 
-}
-
-/* 
-/* Medium devices (tablets, less than 62em (992px)) */
-
-
-} 
-/* .hp-s5-text-body {
-  border: 1px solid pink;
-  position: absolute;
-  top: 8rem;
-  padding-left: 1rem;
-  width: 50%;
-  text-align: left;
-} */
- 
-
-/*   .hp-s5-s6-background {
-    margin-top: 39rem;
-    background-color: var(--pinkWarm);
-    height: 230vh; 
-  } */
-
-
-  /* 
-  .hp-s4-text-body {
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    padding-top: 1rem;
-    /* height: 20rem; 
+  .hp-s6-text-body {
+    width: 90%;
   }
-  
-  .hp-s4-relative {
-    height: 45rem;
-  } */
+
+  .hp-s6-text-body h3 {
+    width: 80%;
+  }
+
+  .hp-s6-relative h2 {
+    width: 95%;
+  }
+}

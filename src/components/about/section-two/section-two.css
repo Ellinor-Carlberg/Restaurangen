@@ -1,6 +1,5 @@
 .ap-s2-relative {
   padding-top: 19vh;
-  border: 1px solid green;
   width: 100%;
   margin: auto;
   position: relative;
@@ -22,7 +21,6 @@
   flex-wrap: wrap-reverse;
   align-items: flex-end;
   justify-content: space-between;
-  border: 1px solid pink;
   position: absolute;
   top: 29vh;
   left: 10%;
@@ -31,14 +29,11 @@
 
 .ap-s2-text-body {
   text-align: left;
-  border: 1px solid orange;
-
   padding-top: 0.6rem;
 }
 
 .ap-s2-heading {
   text-align: right;
-  border: 1px solid lightgreen;
   align-self: flex-end;
 }
 
@@ -52,105 +47,57 @@
 }
 
 /* Medium devices (tablets, less than 62em (992px)) */
-@media (max-width: 75em) { 
+@media (max-width: 75em) {
   .ap-s2-relative {
     height: 81rem;
   }
 
   .ap-s2-relative img {
     position: absolute;
-    /* top: 5rem; */
-  margin-right: 0;
-  right: 5rem;
-  margin-left: auto;
-
+    margin-right: 0;
+    right: 5rem;
+    margin-left: auto;
   }
+}
 
- }
-
- @media (max-width: 62em) { 
+@media (max-width: 62em) {
   .ap-s2-relative {
     height: 98rem;
   }
 
   .ap-s2-relative img {
-  right: auto;
-  left: 0;
-  margin-left: auto;
-  height: 35rem;
-  width: 100%;
-  /* top: 5rem; */
+    right: auto;
+    left: 0;
+    margin-left: auto;
+    height: 35rem;
+    width: 100%;
   }
-.ap-s2-text {
-  top: 70vh;
+  .ap-s2-text {
+    top: 70vh;
+  }
 }
 
- }
-
-
-
- @media (max-width: 48em) { 
-
+@media (max-width: 48em) {
   .ap-s2-relative {
     height: 120rem;
   }
   .ap-s2-text {
     top: 100vh;
-  } 
+  }
 
   .ap-s2-heading h2 {
     margin-right: 0;
-    
   }
-/*   .ap-s2-relative {
-    height: 81rem;
-  }
+}
 
-  .ap-s2-relative img {
-  right: auto;
-  left: 0;
-  margin-left: auto;
-  height: 35rem;
-  width: 100%; */
-  /* top: 5rem; */
-/*   }
-.ap-s2-text {
-  top: 67vh;
-} */
-
- }
-
-
-
- @media (max-width: 36em) { 
-
+@media (max-width: 36em) {
   .ap-s2-relative {
     height: 130rem;
   }
- }
+}
 
- @media (max-width: 30em) { 
-
+@media (max-width: 30em) {
   .ap-s2-relative {
     height: 135rem;
   }
- }
-
-/* 
-
-// Large devices (desktops, less than 75em (1200px))
-@media (max-width: 1199.98px) { ... }
-
-// Medium devices (tablets, less than 62em (992px))
-@media (max-width: 991.98px) { ... }
-
-// Small devices (tablets, landscape phones, less than 48em (768px ) )
-@media (max-width: 767.98px) { ... }
-
-// Extra small devices (phones, less than 36em (576px))
-@media (max-width: 575.98px) { ... }
-
-// Smallest device (Iphone SE, less than 20em  (320px))
-@media (max-width: 319.98px) { ... }
-
-*/
+}
