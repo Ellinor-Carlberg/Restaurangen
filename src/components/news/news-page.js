@@ -19,7 +19,8 @@ function NewsPage() {
                     asset->{
                         _id,
                         url
-                    }
+                    },
+                    alt,
                 }    
             }`
       )
@@ -44,7 +45,7 @@ function NewsPage() {
                     <h5>{post.releaseDate}</h5>
                   </span>
                   <hr></hr>
-                  <img src={post.mainImage.asset.url} alt="monkey" />
+                  <img src={post.mainImage.asset.url} alt={post.mainImage.alt} />
                 </span>
               </Link>
               

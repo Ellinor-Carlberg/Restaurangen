@@ -27,8 +27,8 @@ export default function OnePost() {
              mainImage{
                  asset->{
                      _id,
-                     url
-                 }
+                     url,
+                 }, alt,
              },
              body,
              "name": author->name,
@@ -56,7 +56,7 @@ export default function OnePost() {
         </div>
         <span><hr></hr></span>
 
-        <img src={urlFor(postData.mainImage).width(100).url()} alt="monkey" />
+        <img src={urlFor(postData.mainImage).width(1200).url()} alt={postData.mainImage.alt} />
         <div class="block-content-h5">
           <BlockContent
             blocks={postData.body}
