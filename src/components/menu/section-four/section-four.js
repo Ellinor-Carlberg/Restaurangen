@@ -14,8 +14,10 @@ function SectionFour() {
           <h3>The most important</h3>
 
           <div class="mp-s4-menu-text-wrapper">
-            <h2 class="mp-s4-menu-heading">something</h2>
-            <h2 class="mp-s4-menu-heading">sweet</h2>
+            <h2 class="mp-s4-menu-heading">
+              all sweet
+            </h2>
+            <h2 class="mp-s4-menu-heading">stuff</h2>
             <div class="mp-s4-menu-text">
               <div class="mp-s4-menu-text-col1">
                 <h3>Bignè</h3>
