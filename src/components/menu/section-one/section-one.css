@@ -127,7 +127,13 @@
     flex-wrap: wrap-reverse;
     justify-content: center;
     align-items: flex-end;
+    width: 90%;
+    text-align: center;
   }
+  .mp-s1-text-body h4 {
+    text-align: center;
+  }
+  
   
 
  } 

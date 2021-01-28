@@ -13,6 +13,8 @@ import Header from "./components/headers/header/header.js";
 <ScrollToTop />
  */
 
+ /*  <Redirect path='*' to='/' exact/> */
+
 function App() {
   
   return (
@@ -21,7 +23,7 @@ function App() {
         <BrowserRouter>
         
           <HamburgerMenu />
-          <Header />
+          <Header /> 
           <div>
           
             <Route component={HomePage} path="/" exact />
@@ -29,7 +31,7 @@ function App() {
             <Route component={AboutPage} path="/about" />
             <Route component={NewsPage} path="/news" />
             <Route component={OnePost} path="/:slug" /> 
-            <Redirect path='*' to='/' exact/>
+           
           </div>
           
         </BrowserRouter>

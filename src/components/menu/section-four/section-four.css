@@ -105,12 +105,12 @@
 
 @media (max-width: 75em) { 
 
-
+/* 
   .mp-s4-menu-text-wrapper h2 {
     font-size: 4rem;
     letter-spacing: 1.2rem;
   }
-  
+   */
   .mp-s4-relative {
     height: 100rem;
     
@@ -154,7 +154,7 @@
 
   .mp-s4-wrapper h2 {
     border: none;
-    font-size: 3rem;
-    letter-spacing: 1rem;
+    text-align: left;
   }
+
 }
