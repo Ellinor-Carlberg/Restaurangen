@@ -3,33 +3,17 @@
 :root {
   --black: #000000;
   --grey: #b8b8b7;
-  --greyDark: #2f2f30;
   --greyLight: #f0f0f0;
   --white: #ffffff;
-  --orange: #ff7000;
-  --orangeDark: #ee6802;
-  /* fb770d fe7f2d */
   --brownDark: #3e3d34;
-  --brownDarkDark: #24231d;
-  --brown: #585850;
-  /* change? */
-  --brownLight: #9fa0a0;
   --yellow: #faf160;
   --yellowLight: #fff9a9;
-  /* change? */
-  /* --orange: #FFB33F; */
   --red: #ee5b62;
-  --redDark: #b82d34;
   --pinkWarm: #f5c2bf;
-  --pinkCold: #f8dce7;
   --blue: #2b10bf;
-  --blueDark: #1e0eaa;
-  /* #2b10bf; */
   --blueLight: #b3d4fc;
   --green: #8bc4c4;
-  --greenLight: #d3e7e7;
   --beige: #eee8da;
-  /* change? */
   --blueLogo: #00acf0;
 }
 
