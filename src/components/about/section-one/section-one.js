@@ -9,9 +9,7 @@ function SectionOne() {
         <img src={mountain} alt="yellow paper"></img>
         <h1 class="ap-s1-heading">About us</h1>
         <div class="ap-s1-text-body">
-          <h2 class="h2-small">this is<br></br> miri</h2>
           <h3>and elliot saito</h3>
-          <hr></hr>
         </div>
       </div>
     </div>

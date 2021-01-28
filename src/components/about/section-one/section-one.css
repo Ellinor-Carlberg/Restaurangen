@@ -34,26 +34,33 @@
 
 .ap-s1-text-body {
   color: var(--brownDark);
-
+  
   position: absolute;
   top: 10rem;
   right: 0;
-  width: 40%;
+ width: 40%; 
   text-align: left;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
+  
 }
 
 .ap-s1-text-body h3 {
-  width: 100%;
+  border-bottom: .4rem solid var(--brownDark);
+  padding-bottom: 2rem;
+   width: 100%;
+   right: 0;
 }
 
-.ap-s1-text-body hr {
-  border: 2px solid var(--brownDark);
-  width: 100%;
-  right: 0;
-}
+
+
+
+@media (max-width: 62em) { 
+  .ap-s1-text-body {
+   
+   width:60%; 
+    
+  }
+
+ } 
 
 /* Small devices (landscape phones, less than 48em (768px  ) */
 @media (max-width: 48em) {
@@ -65,14 +72,15 @@
   .ap-s1-heading {
     top: -2.5rem;
   }
+
+
 }
 
 /* Small devices (landscape phones, less than 48em (768px  ) */
 @media (max-width: 36em) {
   .ap-s1-text-body {
-    top: 17rem;
-    right: auto;
-    left: 1rem;
-    width: auto;
+    width: 80%;
+    left: auto;
+    right: 0; 
   }
 }
