@@ -80,3 +80,6 @@ npx create-react-app "project-name"
 
 npm i -g @sanity/cli -install sanity cli
 sanity init -initial santiy project
+
+#NETLIFY -Deploy and status badge
+[![Netlify Status](https://api.netlify.com/api/v1/badges/8f344135-57ff-4a43-922c-76f18679625d/deploy-status)](https://app.netlify.com/sites/restaurant-miri/deploys)

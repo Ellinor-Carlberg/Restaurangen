@@ -116,6 +116,9 @@ padding-bottom: .1rem;
     display: none;
   }
 
+  .large-get-directions{
+    display: none;
+  }
 
 .small-media-directions img{
   padding: 1rem 0;

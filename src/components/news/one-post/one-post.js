@@ -3,8 +3,10 @@ import { useParams } from "react-router-dom";
 import sanityClient from "../../../client.js";
 import imageUrlBuilder from "@sanity/image-url";
 import BlockContent from "@sanity/block-content-to-react";
-/* import SectionOne from "../section-one/section-one.js";
-<SectionOne /> */
+import SectionOne from "../section-one/section-one.js";
+import { ReactComponent as Arrow } from "../../../media/svg/arrow.svg";
+import { NavLink } from "react-router-dom";
+
 import "./one-post.css";
 
 const builder = imageUrlBuilder(sanityClient);
@@ -42,8 +44,12 @@ export default function OnePost() {
 
   return (
     <div class="one-post-page-wrapper">
-      
+      <SectionOne /> 
       <div class="one-post-wrapper">
+      <NavLink  className="arrow-link" to="/news">
+      <Arrow class="arrow-icon" />
+          </NavLink>
+        
         <div class="one-post-heading">
           <h3>{postData.title}</h3>
           <h5>{postData.releaseDate}</h5>     

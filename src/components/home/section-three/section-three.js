@@ -26,7 +26,7 @@ function SectionThree() {
           Sankt Eriksgatan 70<br></br>
           113 20 Stockholm<br></br>
         </h5>
-        <div class="get-directions">
+        <div class="get-directions large-get-directions">
           <Arrow class="icon" />
           <h6>Click on the map to get directions</h6>
         </div>
@@ -42,7 +42,7 @@ function SectionThree() {
           Just drop by, or if you want to book a table se information below.
           <br></br>
           If there is something else you want to contat us about you can always
-          call us on +467 19 43 670. <br></br>Or send us an email{" "}
+          call us on +467 19 43 670. <br></br>Or send us an email
         </h5>
 
         <div class="h5-email">

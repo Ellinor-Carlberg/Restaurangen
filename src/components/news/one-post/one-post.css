@@ -9,10 +9,44 @@
         border: 1px solid red;
         display: flex;
         flex-direction: column;
-        padding: 12rem 0 7rem 0;
+        padding: 2rem 0 7rem 0;
         color: var(--brownDark);
     }
 
+    .arrow-icon {
+        width: 1.5rem;
+        fill: var(--brownDark);
+        margin: 0 0 3rem auto;
+        padding: .2rem;
+        border: 1px solid var(--brownDark);
+    }
+
+
+    .arrow-link {
+        text-decoration: none;
+        color: var(--brownDark);
+      }
+    
+      .arrow-link:link {
+        text-decoration: none;
+      }
+      
+      .arrow-link:visited {
+        text-decoration: none;
+      }
+      
+      .arrow-link:focus {
+        text-decoration: none;
+      }
+      
+      .arrow-link .arrow-icon:hover {
+        width: 2rem;
+      }
+      
+      .arrow-link:active {
+        text-decoration: none;
+      }
+      
     .one-post-heading {
         display:flex;
         align-items: center;
