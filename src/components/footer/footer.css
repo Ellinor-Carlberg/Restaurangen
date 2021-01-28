@@ -5,9 +5,9 @@
 
 .footer-relative {
   color: var(--blueDark);
-  border: 1px solid red;
+
   width: 35rem;
-  margin: auto; 
+  margin: auto;
   top: 8rem;
   position: relative;
   text-align: center;
@@ -24,11 +24,10 @@
   height: 38rem;
   width: 29rem;
   margin: auto;
-  opacity: .8;
+  opacity: 0.8;
 }
 
 .footer h2 {
-  border: 1px solid pink;
   position: absolute;
   top: -3.5rem;
   margin-left: 0.9rem;
@@ -37,7 +36,6 @@
 }
 
 .footer-text {
-  border: 1px solid pink;
   position: absolute;
   top: 3rem;
   width: 80%;
@@ -53,7 +51,6 @@
 .footer-text h3 {
   padding: 1rem 0 0 0;
   margin: 0;
-  /* width: 100%; */
 }
 
 .footer-relative h4 {
@@ -61,21 +58,19 @@
   margin: 0;
 }
 
-
 .footer-social {
-  border: 1px solid pink;
   position: absolute;
-  bottom: 2rem;
+  bottom: 0rem;
   width: 100%;
   text-align: left;
 }
 
 .icon {
   fill: var(--blueDark);
-  left: 0; 
+  left: 0;
 }
 
-.footer .logo-wrapper {
+.footer .logo-wrapper-1 {
   fill: var(--blueDark);
   width: 70%;
   height: 1rem;
@@ -86,158 +81,95 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border: 1px solid red;
+
   left: 50%;
   transform: translate(-50%);
 }
 
-.logo-wrapper .row {
+.logo-wrapper-1 .row {
   display: flex;
   align-items: flex-end;
   justify-content: center;
-  padding: .5rem 1rem;
-  /* border: 3px solid var(--blueDark); */
+  padding: 0.5rem 1rem;
   border-left: 3px solid var(--blueDark);
-  border-right: 3px solid var(--blueDark); 
+  border-right: 3px solid var(--blueDark);
 }
 
 .logos-wrapper h4 {
   margin: 0;
   padding: 0;
   white-space: nowrap;
-  color: var(--brownDark)
-  
+  color: var(--brownDark);
 }
 
 .footer .logo {
-  margin:0;
-  padding: 0 1rem .1rem 0;
-  width: 2rem;
-}
-
-/* .footer-relative .logo-wrapper hr {
-  border: 2px solid var(--blueDark);
-  width: 100%;
-} */
-
-
-/* 
-
-.logos-wrapper {
-  
-  margin: 0 1.5rem;
-  display: flex;
-  padding: .5rem 1rem;
-  border-left: 2px solid var(--black);
-  border-right: 2px solid var(--black);
-  
-}
-
-.logos-wrapper h4{
   margin: 0;
-  padding: 0;
-  white-space: nowrap;
- 
-}
-.logos-wrapper .logo {
-  margin:0;
-  padding: 0 1rem .1rem 0;
+  padding: 0 1rem 0.1rem 0;
   width: 2rem;
-  
 }
- */
-
 
 .footer .email {
   fill: var(--blueDark);
   display: inline-block;
   width: 1.5rem;
   height: 1.5rem;
-  padding: .4rem .5rem 0 0;
+  padding: 0.4rem 0.5rem 0 0;
   margin: 0;
-} 
+}
 
 .footer .h4-email {
   display: flex;
   align-items: center;
   justify-content: center;
-  
 }
 
-.footer .h4-email h4{
-  padding-top: .2rem;
-
-}
-
-@media (max-width: 48em) { 
- 
-
-.footer div {
-  display: block;
-}
-
-.footer-relative {
-  width: 19rem;
-  margin: auto;
-  
-}
-
-.footer-text {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  /* text-align: left; */
-  
-  
-}
-
-.footer-text h3 {
-  
-  border: 1px solid green;
-  
+.footer .h4-email h4 {
+  padding-top: 0.2rem;
 }
 
 
-.footer-relative hr {
-  border: 2px solid var(--blueDark);
-  width: 99%;
+@media (max-width: 48em) {
+  .footer div {
+    display: block;
+  }
+
+  .footer-relative {
+    width: 19rem;
+    margin: auto;
+  }
+
+
+  .footer-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .footer-relative hr {
+    border: 2px solid var(--blueDark);
+    width: 99%;
+  }
+
+  .footer-relative img {
+    height: 30rem;
+    width: 18rem;
+    margin: auto;
+    opacity: 0.8;
+  }
+
+  .footer h2 {
+    font-size: 2.5rem;
+    top: -1.8rem;
+    margin-left: 0.5rem;
+  }
 }
 
-.footer-relative img {
-  height: 30rem;
-  width: 18rem;
-  margin: auto;
-  opacity: .8;
+@media (max-width: 32em) {
+  .phone-wrap {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+  }
+
 }
-
-.footer h2 {
-  font-size: 2.5rem;
-  top: -1.8rem;
-  margin-left: .5rem;
-}
-
-
-   }
-
-
-   @media (max-width: 32em) {
-    
-
-    .phone-wrap {
-      width: auto; 
-      display: flex;
-      flex-direction: column;
-      border: 1px solid green;
-      
-    }
-    
-    .footer-social {
-      
-      bottom: 1rem;
-     
-    }
-
-    }
-   
-  

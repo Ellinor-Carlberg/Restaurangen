@@ -17,7 +17,10 @@ function Footer() {
           <h4>Sankt Eriksgatan 70, 113 20 Stockholm</h4>
           <h4 class="h4-padding">OPENING HOURS</h4>
           <h4> Monday - Sunday 11:30 - 22:00</h4>
-          <h3 class="phone-wrap"><span>phone </span><span>040-121490</span></h3>
+          <h3 class="phone-wrap">
+            <span>phone </span>
+            <span>040-121490</span>
+          </h3>
           <div class="h4-email">
             <a href="mailto:contact@miri.com">
               <Email class="icon email" />
@@ -26,24 +29,23 @@ function Footer() {
           </div>
         </div>
         <div class="footer-social">
-          <a href="https://www.facebook.com/" target="_blank "rel="noreferrer">
+          <a href="https://www.facebook.com/" target="_blank " rel="noreferrer">
             <Facebook class="icon" />
           </a>
-          <a href="https://www.instagram.com/" target="_blank"rel="noreferrer">
+          <a href="https://www.instagram.com/" target="_blank" rel="noreferrer">
             <Instagram class="icon" />
           </a>
-          <a href="https://www.tiktok.com/" target="_blank"rel="noreferrer">
+          <a href="https://www.tiktok.com/" target="_blank" rel="noreferrer">
             <TikTok class="icon" />
           </a>
           <hr></hr>
-          <div class="logo-wrapper">
-            <div>
-              <div class="row logos-wrapper">
+        </div>
+        <div class="logo-wrapper-1">
+          <div>
+            <div class="row logos-wrapper">
               <Logo class="logo" />
-                <h4>restaurant miri</h4>
-              </div>
+              <h4>restaurant miri</h4>
             </div>
-           
           </div>
         </div>
       </div>

@@ -9,7 +9,7 @@ function SectionOne() {
         <img src={mountain} alt="chair"></img>
         <h1 class="np-s1-heading">news</h1>
         <div class="np-s1-text-body">
-          <h3>latest updates <hr></hr></h3>
+          <h3>latest updates</h3>
         </div>
       </div>
     </div>

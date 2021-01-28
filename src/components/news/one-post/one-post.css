@@ -6,7 +6,7 @@
 .one-post-wrapper {
     width: 80vw;
         margin: auto;
-        border: 1px solid red;
+        
         display: flex;
         flex-direction: column;
         padding: 2rem 0 7rem 0;
