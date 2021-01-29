@@ -47,6 +47,8 @@ https://www.sanity.io/docs/deployment
 # Link to the GitHub repo
 https://github.com/Ellinor-Carlberg/restaurangen
 
+# Link to hosting on Netlify
+https://restaurant-miri.netlify.app/
 
 # NETLIFY -Deploy and status badge
 [![Netlify Status](https://api.netlify.com/api/v1/badges/8f344135-57ff-4a43-922c-76f18679625d/deploy-status)](https://app.netlify.com/sites/restaurant-miri/deploys)
