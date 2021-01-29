@@ -11,7 +11,7 @@
 
 .hp-s4-text {
   position: absolute;
-  top: 10rem;
+  top: 8rem;
   left: 10%;
   width: 80%;
   text-align: left;
@@ -21,9 +21,10 @@
 .hp-s4-text-body {
   display: flex;
   justify-content: flex-end;
-  align-items: flex-end;
+  align-items: flex-start;
   width: 100%;
   margin-left: auto;
+  margin-top: 2rem;
 }
 
 .hp-s4-text-body div:nth-child(1){
@@ -32,7 +33,7 @@
 
 .hp-s4-text h3{
   padding: 2rem 0 0 0;
-}
+} 
 
 .hp-s4-text hr {
   border: 2px solid var(--red);

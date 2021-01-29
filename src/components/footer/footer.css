@@ -4,7 +4,7 @@
 }
 
 .footer-relative {
-  color: var(--blueDark);
+  color: var(--blue);
 
   width: 35rem;
   margin: auto;
@@ -14,7 +14,7 @@
 }
 
 .footer-relative hr {
-  border: 2px solid var(--blueDark);
+  border: 2px solid var(--blue);
   width: 99%;
 }
 
@@ -37,7 +37,7 @@
 
 .footer-text {
   position: absolute;
-  top: 3rem;
+  top: 4rem;
   width: 80%;
   left: 50%;
   transform: translate(-50%);
@@ -45,7 +45,7 @@
 }
 
 .footer-text .h4-padding {
-  padding-top: 2rem;
+  padding-top: 1rem;
 }
 
 .footer-text h3 {
@@ -66,12 +66,12 @@
 }
 
 .icon {
-  fill: var(--blueDark);
+  fill: var(--blue);
   left: 0;
 }
 
 .footer .logo-wrapper-1 {
-  fill: var(--blueDark);
+  fill: var(--blue);
   width: 70%;
   height: 1rem;
   position: absolute;
@@ -91,8 +91,8 @@
   align-items: flex-end;
   justify-content: center;
   padding: 0.5rem 1rem;
-  border-left: 3px solid var(--blueDark);
-  border-right: 3px solid var(--blueDark);
+  border-left: 3px solid var(--blue);
+  border-right: 3px solid var(--blue);
 }
 
 .logos-wrapper h4 {
@@ -109,7 +109,7 @@
 }
 
 .footer .email {
-  fill: var(--blueDark);
+  fill: var(--blue);
   display: inline-block;
   width: 1.5rem;
   height: 1.5rem;
@@ -147,7 +147,7 @@
   }
 
   .footer-relative hr {
-    border: 2px solid var(--blueDark);
+    border: 2px solid var(--blue);
     width: 99%;
   }
 
