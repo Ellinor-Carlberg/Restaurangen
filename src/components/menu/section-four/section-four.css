@@ -111,3 +111,33 @@
     text-align: left;
   }
 }
+
+@media (max-width: 36em) {
+  .mp-s4-heading-small {
+    
+    top: -1.5rem;
+    
+  }
+
+  .mp-s4-menu-text-wrapper {
+    margin-top: 0rem;
+    padding: 0rem;
+    
+  }
+
+
+.mp-s4-menu {
+  top: 7rem;
+}
+
+
+.mp-s4-relative img {
+ 
+  top: 6.5rem;
+
+}
+
+.mp-s4-relative {
+  height: 83rem;
+}
+}

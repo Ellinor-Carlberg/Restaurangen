@@ -176,3 +176,38 @@
     border: none;
   }
 }
+
+
+
+@media (max-width: 36em) {
+  .mp-s2-heading-small {
+    top: -1.5rem;
+  }
+
+.mp-s2-menu {
+  top: 7rem;
+}
+
+.mp-s2-menu-text-wrapper {
+  margin-top: 0rem;
+  padding: 0rem;
+  
+}
+
+.mp-s3-menu-text-wrapper {
+  margin-top: 0rem;
+  padding: 0rem;
+  
+}
+
+.mp-s2-relative {
+  height: 150rem;
+}
+
+.mp-s3-relative {
+  
+  height: 100rem;
+  
+}
+ 
+}

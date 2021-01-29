@@ -99,13 +99,18 @@
   }
 
   .mp-s1-text-body {
+    
     flex-wrap: wrap-reverse;
     justify-content: center;
     align-items: flex-end;
     width: 90%;
     text-align: center;
+    top: auto; 
+    bottom: 0rem;
   }
   .mp-s1-text-body h4 {
-    text-align: center;
+    display: none;
   }
+
+  
 }

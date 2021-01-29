@@ -194,3 +194,37 @@
     font-size: 2.8rem;
   }
 }
+
+
+@media (max-width: 36em) {
+  
+
+.mp-s6-heading-small {
+  
+  top: -1.5rem;
+  
+}
+
+
+.mp-s5-menu-text-wrapper {
+  margin-top: 0rem;
+  padding: 0rem;
+  
+}
+
+
+.mp-s5-relative {
+  height: 85rem;
+  }
+
+.mp-s6-menu-text-wrapper {
+  margin-top: 0rem;
+  padding: 0rem;
+  
+}
+
+.mp-s6-relative {
+  height: 105rem;
+  }
+
+}
