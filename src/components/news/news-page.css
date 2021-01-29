@@ -65,6 +65,20 @@
   text-decoration: none;
 }
 
+
+
+   
+@media (max-width: 70em) { 
+
+
+  .all-post-wrapper {
+   
+    padding: 4rem 0 8rem 0;
+  }
+  
+  }
+
+
 @media (max-width: 48em) {
   .np-one-post-heading {
     flex-direction: column;

@@ -101,12 +101,20 @@
 
 @media (max-width: 36em) {
   .ap-s2-relative {
-    height: 130rem;
+    height: 160rem;
   }
 }
 
 @media (max-width: 30em) {
+
   .ap-s2-relative {
-    height: 135rem;
+    padding-top: 14vh;
+    
   }
+  .ap-s2-text {
+    top: 71vh;
+  } 
+  .ap-s2-relative {
+    height: 132rem;
+  } 
 }

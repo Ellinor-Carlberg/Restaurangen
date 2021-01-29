@@ -108,8 +108,20 @@
     }
 
    
+    @media (max-width: 70em) { 
 
+
+      .one-post-wrapper {
+        
+            padding: 4rem 0 8rem 0;
+           
+        }
+      
+      
+      }
+    
 @media (max-width: 48em) { 
+
 
     .one-post-heading {
         flex-direction: column;

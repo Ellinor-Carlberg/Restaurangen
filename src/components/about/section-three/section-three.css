@@ -54,3 +54,15 @@
   }
   
 }
+
+
+@media (max-width: 30em) {
+  
+  .ap-s3-relative {
+    
+    height: 57vh;
+   
+  }
+  
+}
+
