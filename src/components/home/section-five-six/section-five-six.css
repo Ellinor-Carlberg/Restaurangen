@@ -85,6 +85,18 @@
   margin-top: 3rem;
 }
 
+
+
+/* Medium devices (tablets, less than 62em (992px)) */
+@media (max-width: 70em) { 
+
+  .hp-s5-s6-background {
+    height: 205vh;
+  }
+
+}
+
+
 /* Medium devices (tablets, less than 62em (992px)) */
 @media (max-width: 62em) {
   .hp-s5-text-body {
