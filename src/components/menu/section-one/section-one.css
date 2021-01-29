@@ -64,8 +64,14 @@
 
 /* Devices (tablets, less than 70em (px)*/
 @media screen and (max-width: 70em) {
+  
+  .mp-s1-background {
+   
+    height: 90vh;
+  }
+  
   .mp-s1-text-body {
-    top: 26rem;
+    /* top: 5rem; */
     width: 100%;
   }
 
@@ -75,7 +81,7 @@
 
   .mp-s1-text-body {
     flex-wrap: wrap-reverse;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: flex-end;
     bottom: 0;
   }

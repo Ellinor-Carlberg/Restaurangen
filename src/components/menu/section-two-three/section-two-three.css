@@ -127,7 +127,7 @@
 
 @media (max-width: 75em) {
   .mp-s2-relative {
-    height: 150rem;
+    height: 160rem;
   }
 
   .mp-s2-menu-text {
@@ -140,13 +140,13 @@
   }
 
   .mp-s2-relative img {
-    height: 150vh;
+    height: 95vh;
     top: 50rem;
     width: 50%;
   }
 
   .mp-s3-relative {
-    height: 100rem;
+    height: 105rem;
   }
   .mp-s3-menu-text {
     flex-wrap: wrap;
@@ -157,7 +157,7 @@
   }
 
   .mp-s3-relative img {
-    height: 150vh;
+    height: 85vh;
     width: 50%;
     left: 0;
     padding-left: 0;

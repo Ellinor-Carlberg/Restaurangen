@@ -149,7 +149,7 @@
   }
 
   .mp-s5-relative img {
-    height: 140vh;
+    height: 60vh;
     width: 50%;
     right: 0;
     left: auto;
@@ -170,7 +170,7 @@
   }
 
   .mp-s6-relative img {
-    height: 80vh;
+    height: 85vh;
     width: 50%;
   }
 }
