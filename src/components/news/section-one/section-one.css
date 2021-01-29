@@ -53,6 +53,14 @@
   }
   
   
+/* Devices (tablets, less than 70em (px)*/
+@media screen and (max-width: 70em) {
+  
+  .np-s1-background {
+    height: 100vh;
+  }
+  
+}
   
    /* Small devices (landscnpe phones, less than 48em (768px  ) */
    @media (max-width: 62em) { 
