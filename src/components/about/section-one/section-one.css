@@ -51,6 +51,14 @@
 }
 
 
+@media (max-width: 70em) { 
+  .ap-s1-background {
+    
+    height: 100vh;
+  }
+  
+
+ } 
 
 
 @media (max-width: 62em) { 

@@ -44,5 +44,13 @@
     right: auto;
     left: 10%;
     width: 80%;
+   
   }
+
+  .ap-s3-relative {
+    
+    height: 45vh;
+   
+  }
+  
 }

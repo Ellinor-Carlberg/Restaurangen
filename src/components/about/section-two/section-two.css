@@ -57,7 +57,16 @@
     margin-right: 0;
     right: 5rem;
     margin-left: auto;
+    height: 85vh;
   }
+
+
+  .ap-s2-text {
+  
+    top: 13rem;
+    
+  }
+
 }
 
 @media (max-width: 62em) {
