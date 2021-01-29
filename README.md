@@ -11,6 +11,8 @@ the responsiveness is not completely finished.
 To watch it in tablet view choose Ipad Pro for the best version.
 To watch it in mobile view choose Iphone X for the best version.
 
+Also I have to implement scroll-to-top functionallity when you go to a new page. 
+
 To see the grafic profile I did for the restaurant, you find it in the dokumentaion folder. 
 # How to run the project
 

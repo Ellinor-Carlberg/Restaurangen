@@ -9,8 +9,8 @@ import NewsPage from "./components/news/news-page.js";
 import OnePost from "./components/news/one-post/one-post.js";
 import HamburgerMenu from "./components/headers/hamburger-menu/hamburger-menu.js";
 import Header from "./components/headers/header/header.js";
-import ScrollToTop from "./ScrollToTop.js";
-
+/* import ScrollToTop from "./ScrollToTop.js";
+<ScrollToTop /> */
  
 
  /*  <Redirect path='*' to='/' exact/> */
@@ -33,7 +33,7 @@ function App() {
             <Route component={OnePost} path="/:slug" /> 
             <Redirect path='*' to='/' exact/>
           </div>
-          <ScrollToTop />
+          
         </BrowserRouter>
       </div>
       <Footer class="footer" />
