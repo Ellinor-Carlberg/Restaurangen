@@ -86,6 +86,19 @@
   }}
 
 
+@media (max-width: 48em) { 
+
+  .hp-s4-relative {
+    
+    height: 53rem;
+
+  }
+  
+  
+
+}
+
+
 /* Medium devices (tablets, less than 62em (992px)) */
 @media (max-width: 36em) { 
 

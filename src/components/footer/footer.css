@@ -133,6 +133,19 @@
     display: block;
   }
 
+  .footer {
+    height: 52rem;
+  }
+
+
+  .footer .logo-wrapper-1 {
+  
+    padding-top: 5rem;
+    
+  }
+  
+  
+
   .footer-relative {
     width: 19rem;
     margin: auto;

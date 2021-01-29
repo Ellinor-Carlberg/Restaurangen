@@ -70,17 +70,18 @@
 /* Medium devices (tablets, less than 62em (992px)) */
 @media (max-width: 62em) { 
   .hp-s2-relative {
-    height: 77rem; 
+    height: 55rem; 
   }
   
   .hp-s2-text {
-    top: 30rem;
+    top: 16rem;
     left: 1rem;
   }
 
   .hp-s2-relative img {
-    height: 50rem; 
+    height: 52rem; 
     position: absolute;
+    top: 50rem;
     bottom: 0;
     right: 0;
     width: 90%;

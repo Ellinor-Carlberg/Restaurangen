@@ -100,12 +100,12 @@
 @media (max-width: 62em) {
   .hp-s3-text-body {
     position: absolute;
-    top: 26rem;
+    top: 17rem;
 
     text-align: left;
   }
   .hp-s3-relative {
-    height: 72rem;
+    height: 55rem;
   }
   .small-media-directions {
     display: block;

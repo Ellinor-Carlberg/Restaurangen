@@ -127,10 +127,29 @@
 
 /* Small devices (landscape phones, less than 48em (768px ) ) */
 @media (max-width: 36em) {
+
+
+.hp-s5-relative {
+  height: 80vh;
+}
+
   .hp-s5-text-body {
     left: 1rem;
     width: 90%;
   }
+
+  .hp-s5-relative h2 {
+    
+    top: -11rem;
+    
+  }
+
+  .hp-s6-relative h2 {
+    
+    top: -2rem;
+    
+  }
+
 
   .hp-s5-text-body h3 {
     width: 80%;
