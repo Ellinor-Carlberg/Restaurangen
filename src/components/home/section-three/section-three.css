@@ -5,7 +5,8 @@
   margin: auto;
   position: relative;
   text-align: center;
-  height: 57rem;
+  height: 61rem;
+  border: 1px solid red;
 }
 
 .hp-s3-relative img {
