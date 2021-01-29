@@ -75,6 +75,14 @@
   .hp-s1-text {
     width: 60vw;
   }
+
+  .hp-s1-background {
+    height: 80vh;
+  }
+
+  .hp-s1-relative img {
+    height: 90vh;
+  }
 }
 
 /* Medium devices (tablets, less than 67em (992px)*/
@@ -82,6 +90,8 @@
   .hp-s1-text {
     width: 70vw;
   }
+
+
 }
 
 /* Small devices (landscape phones, less than 48em (768px  ) */
