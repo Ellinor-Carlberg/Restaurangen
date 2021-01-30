@@ -23,10 +23,10 @@ body {
   height: 100%;
 }
 
-.loading {
+/* .loading {
   display: none;
 }
-
+ */
 .app-wrapper {
   margin: 0;
   display: flex;

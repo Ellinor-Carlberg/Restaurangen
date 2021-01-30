@@ -45,10 +45,12 @@ function NewsPage() {
                     <h5>{post.releaseDate}</h5>
                   </span>
                   <hr></hr>
-                  <img src={post.mainImage.asset.url} alt={post.mainImage.alt} />
+                  <img
+                    src={post.mainImage.asset.url}
+                    alt={post.mainImage.alt}
+                  />
                 </span>
               </Link>
-              
             </div>
           ))}
       </div>
@@ -57,8 +59,6 @@ function NewsPage() {
 }
 
 export default NewsPage;
-
-
 
 /* 
 import React, { useEffect, useState } from "react";

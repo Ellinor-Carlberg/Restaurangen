@@ -29,8 +29,8 @@ function App() {
             <Route component={HomePage} path="/" exact />
             <Route component={MenuPage} path="/menu" />
             <Route component={AboutPage} path="/about" />
-            <Route component={NewsPage} path="/news" />
-            <Route component={OnePost} path="news/:slug" /> 
+            <Route component={NewsPage} path="/news" exact />
+            <Route component={OnePost} path="/news/:slug" /> 
             <Redirect path='*' to='/' exact/>
           </div>
           

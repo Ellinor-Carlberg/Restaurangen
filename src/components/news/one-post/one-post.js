@@ -20,7 +20,7 @@ export default function OnePost() {
   useEffect(() => {
     sanityClient
       .fetch(
-        `*[slug.current == $slug]{
+        `*[slug.current == "${slug}"]{
              title, 
              slug, 
              releaseDate,
@@ -60,8 +60,8 @@ export default function OnePost() {
         <div class="block-content-h5">
           <BlockContent
             blocks={postData.body}
-            projectId={sanityClient.clientConfig.projectId}
-            dataset={sanityClient.clientConfig.dataset}
+            projectId="bw7loebj"
+            dataset="production"
           />
         </div>
 
