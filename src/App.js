@@ -30,7 +30,7 @@ function App() {
             <Route component={MenuPage} path="/menu" />
             <Route component={AboutPage} path="/about" />
             <Route component={NewsPage} path="/news" />
-            <Route component={OnePost} path="/:slug" /> 
+            <Route component={OnePost} path="news/:slug" /> 
             <Redirect path='*' to='/' exact/>
           </div>
           

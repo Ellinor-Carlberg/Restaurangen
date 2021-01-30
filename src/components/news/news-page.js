@@ -36,7 +36,7 @@ function NewsPage() {
             <div class="np-one-post-wrapper">
               <Link
                 class="post-link"
-                to={"/" + post.slug.current}
+                to={"/news/" + post.slug.current}
                 key={post.slug.current}
               >
                 <span key={index}>
